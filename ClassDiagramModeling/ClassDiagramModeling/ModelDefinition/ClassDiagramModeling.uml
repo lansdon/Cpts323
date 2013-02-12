@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="82de041b-d22c-47c8-9133-f37551018a5f"
+  name="ClassDiagramModeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="89ada3f7-dad7-4609-8d7b-e3d89bdb909f"
+        name="Animal"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="fb02af9b-ab21-465b-be47-cac4b3ffceeb"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="2674ef47-4795-40d8-adab-b04a9dc43dcb"
+                LastKnownName="string"
+                LastKnownLocation="ClassDiagramModeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="92a105b3-9191-4868-ae8e-d78b35bc10de"
+            name="Legs"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="64ca8bd4-3fa5-4921-8d72-4267c0531ae5"
+                LastKnownName="int"
+                LastKnownLocation="ClassDiagramModeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="57192bc7-4262-4641-b608-0340536978eb"
+            name="HasHair"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="da2fb863-8bad-41e4-9dd1-8fe9adb922b0"
+                LastKnownName="bool"
+                LastKnownLocation="ClassDiagramModeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="39b5efb7-62b7-4b6a-a0c8-86f58ed24379"
+            name="BornDate"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="dba1a523-61b9-4293-b1ad-86e3191a115d"
+                LastKnownName="DateTime"
+                LastKnownLocation="ClassDiagramModeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="58e0cb37-1821-469a-b1fc-1ffeaba75962"
+            name="Feed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="08943e1d-6013-44ca-9301-6872f197f53b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="da2fb863-8bad-41e4-9dd1-8fe9adb922b0"
+                      LastKnownName="bool"
+                      LastKnownLocation="ClassDiagramModeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="346ca807-d86e-41bc-be3e-55c9f24801ba"
+            name="Feed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ac3ecb32-9a1b-4aff-a9cc-22ca823bb1e0"
+                  name="cheeseburgers"
+                  direction="In">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="64ca8bd4-3fa5-4921-8d72-4267c0531ae5"
+                      LastKnownName="int"
+                      LastKnownLocation="ClassDiagramModeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6d31322d-3118-466e-9831-93f65f31279d"
+            name="Speak"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3df1915c-58fa-42e2-961b-04e01b3e844f"
+            name="Breath"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="2674ef47-4795-40d8-adab-b04a9dc43dcb"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="64ca8bd4-3fa5-4921-8d72-4267c0531ae5"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="da2fb863-8bad-41e4-9dd1-8fe9adb922b0"
+        name="bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="dba1a523-61b9-4293-b1ad-86e3191a115d"
+        name="DateTime" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="acea3477-3265-40e0-a92a-1ec3658a1f18"
+        name="Dog"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="02394408-3791-4dfc-a1f6-769b38653765"
+            isSubstitutable="false">
+            <classMoniker
+              Id="89ada3f7-dad7-4609-8d7b-e3d89bdb909f"
+              LastKnownName="Animal"
+              LastKnownLocation="ClassDiagramModeling.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="672c835a-1b5b-42f2-b6d9-72abecba13ac"
+            name="Breath"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a986d501-a662-4c5c-8811-e0e2735e48c2"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
