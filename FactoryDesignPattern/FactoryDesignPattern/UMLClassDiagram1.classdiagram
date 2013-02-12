@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="86631339-1444-4a71-a464-53cd361929f2" name="UMLClassDiagram1" linkedPackageId="81271522-3a1d-4034-a72d-bf30ad404c29" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="275696c1-da97-4290-8bf8-156d1cd73f75">
+      <profileInstance Id="a552257b-25b8-4be6-8ce1-b55ca06cb387" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="34706783-966b-4061-9e0a-f78a7599ce98">
+      <profileInstance Id="1dbbe5ca-473e-4c9d-940f-68151ac46ddd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="effe09c8-8fb4-4341-8548-3c84f238e989" name="Factory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c5b95756-e032-4b92-9f94-919d8807648f" />
+        <ownedOperationsInternal>
+          <operation Id="32ec14de-741f-4423-99ce-801a531f3045" name="FactoryMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b70c08b8-ebbb-4113-b96e-4507f1f555f7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b3bcd571-14e1-4fe6-9e83-2a37597e3ee8" name="ConcreteFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="98b4c1a1-c34f-4e98-bb19-ec2204622d5c" />
+        <suppliersInternal>
+          <dependency Id="efe56040-d37f-4e4b-a633-8cb19ea3bcf6">
+            <classMoniker Id="852be26b-beb2-43df-b982-5f7acbd74e3c" LastKnownName="ConcreteProduct" />
+            <elementDefinition Id="a4144234-e667-4452-b03c-705ec9d30729" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="4271b429-47d2-4299-9763-476ea5852a55" isSubstitutable="false">
+            <classMoniker Id="effe09c8-8fb4-4341-8548-3c84f238e989" LastKnownName="Factory" />
+            <elementDefinition Id="f4fb3088-0ae3-4983-8f75-a01ec027ea63" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="740efa01-5cab-4254-ba0b-5f5ca9c33e7f" name="FactoryMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ea49108f-903e-4153-adb8-bab4047ba2a4" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="852be26b-beb2-43df-b982-5f7acbd74e3c" name="ConcreteProduct" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3f404b9f-69c3-4da4-9262-0ae298ba5081" />
+        <generalsInternal>
+          <generalization Id="c2b5fc6f-97f0-4a9a-adb6-c68de0c6e34b" isSubstitutable="false">
+            <classMoniker Id="2a03fe08-7b7c-4613-a373-2781126d7538" LastKnownName="AbstractProduct" />
+            <elementDefinition Id="cb1f4edd-5d75-4632-8052-4bed98fe613d" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2a03fe08-7b7c-4613-a373-2781126d7538" name="AbstractProduct" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b00303ee-468e-4d8e-b3ee-227f7fd4ea24" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="81271522-3a1d-4034-a72d-bf30ad404c29" name="FactoryDesignPattern">
+    <elementDefinition Id="9fff7f54-47e0-421d-a587-f6b181ae6b80" />
+  </package>
+</logicalClassDesignerModel>

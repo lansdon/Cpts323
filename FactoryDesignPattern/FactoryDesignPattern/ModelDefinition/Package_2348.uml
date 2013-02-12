@@ -1,0 +1,1124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1845a6fb-345d-47cc-9123-baf8dbb30ec4"
+  name="ZooFactory"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="46020b16-f98b-460f-9be7-edbc89fbed5e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DZooFactory"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+        name="Animal"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="64e37cf5-bf94-400a-9f57-d7d0c47904be"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimal"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a0cc6a0e-9053-4af7-af14-f10547fc8954"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a81654d5-e180-4ce1-98ad-0daa8b6b56ac">
+                <propertyInstance
+                  Id="aedcc333-f3e8-4305-b34e-f4520854cdd5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c069a53-78e1-4c41-8b4d-34080a7ee83e">
+                <propertyInstance
+                  Id="0a2c6183-94d2-4e8d-bea8-15e8457b2c85"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c07589d-3b60-4f07-b977-4213dd79b86b">
+                <propertyInstance
+                  Id="eda27393-4226-4e70-b2e8-4c2cf334f893"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7fe38c3d-8483-4851-bff9-e6b2c8666ed4">
+                <propertyInstance
+                  Id="145991e3-ef09-4182-b532-73fa9a0d5ac9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89ad2d32-b858-4e5b-a6a9-69a3e7d4b111">
+                <propertyInstance
+                  Id="053858f8-aa32-4588-a3bb-ba731727d3f7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="42aafcf4-1788-449c-b318-52aa27b95df8"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="01c0d7dd-adbc-46cb-ae6e-2ffc5ecfe2b4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimal Member%3DName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="59b664dc-e686-4b28-bcfc-6a76b62dadee"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98213cb3-6b4d-4bd8-bc06-a1b5a7529b8a">
+                    <propertyInstance
+                      Id="0fa453ce-66d6-438a-927b-faa83133ab79"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0f89615-36c1-4b44-bb93-eda14316603c">
+                    <propertyInstance
+                      Id="84ab8ea7-0f09-41b8-9305-20e0ac3fa958"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2461d84d-e51e-45df-8990-95ef5df0fcea">
+                    <propertyInstance
+                      Id="08532679-a801-4390-86d1-5061dc1901ad"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ef0998c-dd9b-4c78-aeb7-9ae09a6a6820">
+                    <propertyInstance
+                      Id="3ba34bb4-4e1b-4ba9-91fd-ed7da1b2b9a6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95cce038-1cda-4595-a0b6-da83f4d79cd0">
+                    <propertyInstance
+                      Id="7249859a-7799-444a-b12e-e8f0b8bcf316"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dae96fe-4c4f-4120-bde0-a90e6b1a4fac">
+                    <propertyInstance
+                      Id="8fcfcb20-9e01-4e35-a66b-6db748338359"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1732477a-db0d-49d4-b77f-e371568bd6cb">
+                    <propertyInstance
+                      Id="b07be7f9-c3e0-4d48-9cee-97ab114b3956"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FactoryDesignPattern.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b74463f8-c0e7-4bdc-b319-af8a77cb85ea"
+            name="Feed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="57a9ce62-b11e-43c5-9f6f-5975066317d9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimal Member%3DFeed"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2d1cca4-96d8-48cc-8d36-577161301655"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2ff4e50-3922-4e34-abf7-f75e7dc553ed">
+                    <propertyInstance
+                      Id="96361fc7-605c-4913-b501-79e965ef09d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ff5e5ec-3d96-4425-813f-bcb4ab088b64">
+                    <propertyInstance
+                      Id="b5042660-a4e1-4dde-ae58-707c636d16b7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8fec15c-8637-4215-83c8-48d73646d4c6">
+                    <propertyInstance
+                      Id="56a7a86f-7627-4c99-ab55-7632b2bde996"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00261b6d-4e40-41b4-974a-f783e7f23c60">
+                    <propertyInstance
+                      Id="8b8f8050-e404-4fe0-b5aa-2656d63f9ebf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69145b80-6d49-4353-a179-16aec84e107b">
+                    <propertyInstance
+                      Id="b4c72c90-2135-4fc2-924c-4b7c85eda1d6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2cbc28e-914a-4ed7-8b05-dc276031f689">
+                    <propertyInstance
+                      Id="88f8dc3b-de35-474c-ae2d-ccf330c4ecb3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c2af45a8-f177-4cc0-8534-0108e9ffedc0"
+            name="Animal"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="25c67489-af38-4603-bc45-e89f1ea107d5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimal Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7811279c-e7de-48e9-a7f8-380f643d48ea"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4f59bd0-f236-4cfa-9c36-b410d45bbf6b">
+                    <propertyInstance
+                      Id="606fea87-53ab-4bea-9ceb-b9fcc13e9f8c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3abc682-cf2e-4cd5-87f0-656532812cd8">
+                    <propertyInstance
+                      Id="2d1fe3c4-7680-415e-a57d-ddff1773c77d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3c9fa3c-fcf7-45c1-be21-0a699b18d61a">
+                    <propertyInstance
+                      Id="ea210a0e-61cb-44dc-8006-9d99aafd4d63"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b315adbe-563c-4eeb-9344-d723c0aa6902">
+                    <propertyInstance
+                      Id="bc935575-aa92-4eb7-b486-fbca10b21f93"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="314b9642-4f39-4c7c-a1a7-ca107bf0537b">
+                    <propertyInstance
+                      Id="8271a9e1-1dbc-49f3-a1d8-0ce6d628321e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79d72037-d7f7-4669-a5bf-b12c536bf6fd">
+                    <propertyInstance
+                      Id="7f576792-a262-45ff-bcc1-92fa93e4f11d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="a737c635-7dcf-4982-9e0d-47af5d5c090e"
+        name="AnimalType"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="011ccb9e-6a66-40a9-beaa-e9723291d59f"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimalType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c1e5e9bd-2f99-4799-bf27-d0b475077fcd"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36d13ca8-880a-4968-a0b6-621a2e42e0b7">
+                <propertyInstance
+                  Id="fe70302a-7fd1-4337-a577-413a305d7d5c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d314371-3707-46fc-bdd2-30701d7383e6">
+                <propertyInstance
+                  Id="ed600efb-a009-419c-869f-1a1b4aa46a69"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2666d09b-07fd-4341-b9ec-8d52a553693f">
+                <propertyInstance
+                  Id="ee6d210b-cd2d-4504-bb39-4aa7ae4b4fce"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="3d154762-8906-4ae8-9fec-11aebb5f58c0"
+            name="Dog">
+            <referencesInternal>
+              <reference
+                Id="eba38521-b7ad-42a5-8cd6-12a4a6fc472f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimalType Member%3DDog"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="dca45515-5205-4b42-9c65-ebe471e505c8"
+            name="Cat">
+            <referencesInternal>
+              <reference
+                Id="0f2308cf-b72e-4cd8-8554-33df476d2f63"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimalType Member%3DCat"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="86349f99-9cc7-4ff4-9a70-2cf5d3e83b18"
+        name="Cat"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f67df4cb-f75c-4e0b-8d77-2d88489d329b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DCat"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7103d50d-a98d-4836-b8a0-1b048ae91216"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bce88b3-d13c-4d34-a0c7-62d75fdfe390">
+                <propertyInstance
+                  Id="c046214e-b495-4f59-9134-44af19550a54"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aeb9a616-dfba-4db3-8594-0233bd616cc3">
+                <propertyInstance
+                  Id="cd1b0f24-340d-4828-a87f-be2a3c1bad39"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7505249-8adf-49b4-88fb-289ba707ea02">
+                <propertyInstance
+                  Id="b08a52de-8f9d-4bd0-a311-4d8a4cb8e6d3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c78fb85e-fec5-47ae-926f-8cc2d7505121">
+                <propertyInstance
+                  Id="65fe79ed-1fdd-4f42-bf44-cb2bcd6664fb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="afd527b4-78f3-4df3-9719-85ab3d2a9036">
+                <propertyInstance
+                  Id="a0837b85-2351-44a6-8b9a-cef6cfa95642"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5364eefa-b390-4727-a9fa-fff8b5f30814"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+              LastKnownName="Animal"
+              LastKnownLocation="Package_2348.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2d58ead3-5559-40aa-9e95-7c9eeb5df167"
+            name="Cat"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d740afe8-1a26-41ac-a925-4c1246359c3f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DCat Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b267e524-1493-47a1-b13e-2ec480eba50f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aeb3da9-5809-452b-acaa-615e8dd37f2d">
+                    <propertyInstance
+                      Id="07cdd6bf-433b-4a62-b82e-c8a1cbec6cc3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79290f4f-a66e-4a62-b4fe-c16db6250778">
+                    <propertyInstance
+                      Id="70b2d411-0d13-473a-ba8b-e743e8743768"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8711943-1a3c-44f3-a6b3-c85ccb6cd3c8">
+                    <propertyInstance
+                      Id="fe10b434-be66-4d6f-9119-82612cc7f152"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e89bda-cd12-44fb-858c-dfdd5b9f02d9">
+                    <propertyInstance
+                      Id="9cd47d77-8af2-478c-b644-6841f1f8dfdd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1338465-a240-4359-a41c-b9432bd0e252">
+                    <propertyInstance
+                      Id="23566e3a-d924-4233-9f47-f3faadaaad17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09061a0f-6fa1-473f-b36e-0afaedda79e4">
+                    <propertyInstance
+                      Id="1bd502c9-8912-43cf-b3d8-ec8487f8ffa9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ad4e5381-e4e3-4fb9-9d16-ef1795a3973d"
+        name="Dog"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4ea56661-25a6-4de8-a940-1e6a321e12e3"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DDog"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4abfa898-d780-4eee-aed4-f4be7da86312"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa454963-2ca3-42cb-b412-5bb16df4f7eb">
+                <propertyInstance
+                  Id="686d410f-77c4-44fc-8604-30ea1ca44517"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5bb36fa-aa45-4e36-bb54-37472bf69455">
+                <propertyInstance
+                  Id="339b086b-f471-4bf2-94c8-f16caadc86a7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb3463e0-9c53-466b-a205-58d58f08c05b">
+                <propertyInstance
+                  Id="91143db9-e891-4eac-9637-5ac7d80fcc05"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f250d5d8-14e8-48c9-a5f6-30af9afafe0f">
+                <propertyInstance
+                  Id="85717864-f68c-4739-91af-4224d9cf1c33"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="80e8830b-9bbd-46c5-8bdb-423fccd1553c">
+                <propertyInstance
+                  Id="a612cfdd-c1e8-4653-af88-6ef45388050f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ef0f6fbb-8433-405f-81aa-d218cc2d6f39"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+              LastKnownName="Animal"
+              LastKnownLocation="Package_2348.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="99cd4f96-577b-45f2-a6c7-86ed32a20b48"
+            name="Dog"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cc72e258-e3e7-4b92-8e8b-9b70dcf04162"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DDog Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ddf2fd33-e3a2-4db5-9d03-02fc7cdbf92e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb91cfb7-c7cc-4b9a-83b4-ee8cdb17e993">
+                    <propertyInstance
+                      Id="1f2fe3e2-cd24-435d-9121-bcda71331fe1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11232e28-6934-4434-91c9-b6639aad1906">
+                    <propertyInstance
+                      Id="0906b546-588d-4c11-b63d-8f9ca3c502aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f6b934-ff57-4e93-8b21-2e856b5bff0e">
+                    <propertyInstance
+                      Id="335c9f32-b411-49f7-86d5-6e75a092a03b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="110f7c19-5fed-4e64-ad70-cd5b3878c7e4">
+                    <propertyInstance
+                      Id="3e2f571e-601c-4d86-88bd-57e510db8b37"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06abcb33-8e64-436a-bab1-1468e4dc5993">
+                    <propertyInstance
+                      Id="18ac04f5-765b-49f8-9cbf-bb7108580047"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2446b675-490e-43eb-b2d9-db28b8281bcd">
+                    <propertyInstance
+                      Id="5d373409-00d2-4716-a3ae-b550a2b764d0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4bc50a32-27b8-47e5-bbd6-e9cc64b702dc"
+            name="Dog"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c47ff54a-1c4f-4286-9d4b-87bcceb5088e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DDog Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a07c097-a3bd-43e6-95ba-69ea54ec7664"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93acd27e-a3b8-40d3-9bf6-01d5c5894951">
+                    <propertyInstance
+                      Id="b26fe44c-f863-42b5-bdfd-84600ee60d48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d17cad1e-105c-462e-9fa9-75bc7ff3b17f">
+                    <propertyInstance
+                      Id="8361054e-958a-4317-ab54-49b2762b296a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97eb2b71-c2e4-4aa3-9b2a-b3270a7a09d7">
+                    <propertyInstance
+                      Id="121e0e3f-19b4-49dc-ace5-5f2de76e48d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bf9bfd7-1f04-43da-996c-4619f077fcc2">
+                    <propertyInstance
+                      Id="b0e8bd69-f362-455f-ba70-fb742440243b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1abe9a8d-d179-4593-8838-555da1141e04">
+                    <propertyInstance
+                      Id="391dd2dc-6852-4d83-839b-8397027bdfee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99fa818b-5dc8-40a0-a4da-2eef9dca4a37">
+                    <propertyInstance
+                      Id="5e3ca7c3-5606-44e3-9efb-e71aa323b2f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b83e9566-3f05-4ef0-8584-d99a00121aef"
+                  name="doggyName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e5c12d8b-b2cb-4c86-b566-a6e64848e871"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DDog Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DdoggyName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FactoryDesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d9d8f8f9-28e3-4820-9eb3-6164f1cb35cf"
+        name="ZooFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="db1416c5-c496-4d60-9bf0-325c9063c3b8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="239e678b-665b-494d-971b-dabf5d3ae855"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44d80305-dcf1-4d8a-adb9-375dbcf531e6">
+                <propertyInstance
+                  Id="a178f8c3-1cc1-4eff-8292-a3c7d8e99090"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee7eb3db-dcf4-47db-8bf1-29b3f57cf7a6">
+                <propertyInstance
+                  Id="d5d6ca68-39d2-43e3-bed8-f403d4361c9d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c9656c1-a607-4246-8e4b-063243e5aec6">
+                <propertyInstance
+                  Id="20babace-58e4-47f9-b2f6-6f29e2e6cc8d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1de5c7a1-4df6-477d-a3f6-169fdfcb062a">
+                <propertyInstance
+                  Id="31469b3c-e575-42e5-97a0-dfc5e2aedb93"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f073e85-866a-4627-b003-61f449386890">
+                <propertyInstance
+                  Id="98088354-4e61-465c-a610-1cd23356b1ac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="d07d407d-4dc8-48d6-8046-e775b3472a70">
+            <classMoniker
+              Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+              LastKnownName="Animal"
+              LastKnownLocation="Package_2348.uml" />
+          </dependency>
+          <dependency
+            Id="4945f8cf-319b-4d01-add7-0ac76e8bfe52">
+            <enumerationMoniker
+              Id="a737c635-7dcf-4982-9e0d-47af5d5c090e"
+              LastKnownName="AnimalType"
+              LastKnownLocation="Package_2348.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b32c6b1c-0dd2-4121-b28b-122bb8b94cd4"
+            name="CreateAnimal"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e1e7a26-b6d3-4bb8-846b-33467438ac04"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3DCreateAnimal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d59dec0d-5278-4e36-a97a-6293debf3be2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df0a9f25-7925-4f42-aaa6-930da0b9abb2">
+                    <propertyInstance
+                      Id="3dd28688-fa9b-4f84-8c41-c62c1293aa46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2815374-cf82-4ea6-8061-9ebfed946c3e">
+                    <propertyInstance
+                      Id="4ea44754-6583-4ed2-b067-49e3612823f9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6516aa31-4cc3-44c3-be68-a07bec30058c">
+                    <propertyInstance
+                      Id="46765c87-be5f-451c-beee-5b26c5967f1f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9cf24f0-62ea-4896-8312-a0cfab476ea7">
+                    <propertyInstance
+                      Id="ee7d245c-4da4-4050-8f6a-565e5aaec266"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1df2b875-eb94-45a6-a341-b93b84f76bdf">
+                    <propertyInstance
+                      Id="8275bd1c-85d7-40b1-9eb7-1183317e3994"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e24f6915-f218-4819-8107-d8f28cbbb1b3">
+                    <propertyInstance
+                      Id="996045fa-6fb8-494a-8ef9-726a4e13d8eb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1b092f3a-5208-4d00-897c-47d11e4f3aef"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+                      LastKnownName="Animal"
+                      LastKnownLocation="Package_2348.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1250646f-3615-43a0-b6fa-e783357542e2"
+            name="CreateAnimal"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38672477-0e8b-4cc2-8615-ffbba6aa57a6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3D(Name%3DCreateAnimal OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimalType)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7ea2cfab-e6eb-4e2c-b4f8-447b64cce50c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f1d3cf6-a2af-44ba-8aab-4c821da1d79e">
+                    <propertyInstance
+                      Id="dd9b20f6-01bf-41af-8cd1-7c1b4352dddd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70a229f2-c0ce-448a-9e80-baf58f0ae18c">
+                    <propertyInstance
+                      Id="8513a920-44d7-442e-a69d-1305f90a8e67"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d16577ed-ba5a-43ed-90f5-39ec1fe4861d">
+                    <propertyInstance
+                      Id="b119425b-3492-49a3-8fed-83e839b5cdb1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2415b577-3cf0-4e67-8c05-779daf00c5d6">
+                    <propertyInstance
+                      Id="d192577f-8b96-4fc5-baa9-36c979a7e8ce"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96550c6e-4895-4a2b-9f3f-dfaa9d346f72">
+                    <propertyInstance
+                      Id="73e80410-182f-45a7-a4a2-1baf354cb9c8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3395129-c484-4abd-b1f8-bb41bd88dc46">
+                    <propertyInstance
+                      Id="a1565d07-c85f-4e9a-89a1-ad1bc1ded0e9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e76bbfe1-eba3-4582-8a98-d44f8d95da37"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+                      LastKnownName="Animal"
+                      LastKnownLocation="Package_2348.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06b2b6b5-2cb0-43ac-b2de-1b866a116924"
+                  name="animalType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59b3d947-a5a4-4d1b-b865-dcc68838156b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3D(Name%3DCreateAnimal OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DAnimalType)]) ParameterIdentifier%3DanimalType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="a737c635-7dcf-4982-9e0d-47af5d5c090e"
+                      LastKnownName="AnimalType"
+                      LastKnownLocation="Package_2348.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d539ce52-5d79-465c-b2ba-02142641ec52"
+            name="CreateDog"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fee776d9-dff9-42b7-83af-98c3fe6d3f9e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3D(Name%3DCreateDog OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0692719a-a507-4db0-ad35-dcfadfe72730"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6800690b-5b9d-4295-b244-7cc59719ae4a">
+                    <propertyInstance
+                      Id="4c0a981a-5290-4c0e-a674-28fd07136f40"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb5080d9-68b4-4ed8-9a45-325641b0684c">
+                    <propertyInstance
+                      Id="44b7441e-ab3c-4b28-8b10-cc7dc9d6afbb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d66635d-dfcb-4a13-87fb-5ffa5d604448">
+                    <propertyInstance
+                      Id="a5a4afd4-e187-4c06-a05e-3f08d6de9a56"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3423ef28-1404-40e4-8115-af2241e5e66a">
+                    <propertyInstance
+                      Id="06c947ca-49f5-43c6-9e03-2040077563ad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eafa336c-efee-447a-8634-35a4003c0ed3">
+                    <propertyInstance
+                      Id="cb89f078-d343-469c-acda-615ad088a3c0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="633cbbe7-82c0-4c13-a903-ef4346b19d15">
+                    <propertyInstance
+                      Id="f4dcdf43-8ee7-4a38-b713-a30b55f761ae"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6f4e7409-344c-4f3c-b852-c5adda715698"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d70162b4-c365-43bf-a1e6-d30dbf6aa0fe"
+                      LastKnownName="Animal"
+                      LastKnownLocation="Package_2348.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="869b3cf9-e265-48e2-869d-2d8b5347007b"
+                  name="name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e799324c-c174-4eb3-ad9c-6fc9fae1ca40"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3D(Name%3DCreateDog OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FactoryDesignPattern.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8dbbce27-0df8-4609-964e-56565658548e"
+            name="ZooFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2f3bb855-5d5d-4efe-86a3-7a2529248b4d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2FFactoryDesignPattern%2FZooFactory%2Fbin%2FDebug%2FZooFactory.exe Namespace%3DZooFactory Type%3DZooFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e6a04bcb-3e48-4ed7-8ce2-d69cab0b4167"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a303657-9756-4e2e-9fb8-5aa3c7e714b1">
+                    <propertyInstance
+                      Id="1aae1fcc-3ead-4bcc-9455-358a1c79a16b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="300ab4b2-eb11-4191-b4f7-487a3d608002">
+                    <propertyInstance
+                      Id="e8565b73-0d4b-434d-9528-23c72aa46bb0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf89cc56-166e-4639-a245-d8e62d300eab">
+                    <propertyInstance
+                      Id="43d1ba9f-b7af-4a24-9c9a-b952c40f8b07"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d12f43f5-fe7f-4f97-91ce-f6ad003ad81d">
+                    <propertyInstance
+                      Id="50f75fa6-7b4f-4836-b41a-e29a293f7ef6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cff7b4e1-57a2-4c2b-9fc2-95e8f4294d7f">
+                    <propertyInstance
+                      Id="8c22bbbe-0c82-436f-bd2c-7e7f940a17b7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf71885a-a91b-4f11-8e79-c6e00f39b891">
+                    <propertyInstance
+                      Id="16c3c007-1bd0-40e7-a000-834837a306e1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
