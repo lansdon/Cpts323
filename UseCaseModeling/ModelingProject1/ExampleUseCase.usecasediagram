@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="a18e049c-b558-4b7e-92fc-74c901bde68e" name="ExampleUseCase" linkedPackageId="581aa8df-e657-4414-911a-55f22505a940" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="3bb53b4a-63d4-4114-8ec9-368c7352bd92">
+      <profileInstance Id="2e03c197-13b7-495e-8da3-7b5a3b66cc01" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c01d4f0d-970b-4883-a113-f1f98fbf8b23">
+      <profileInstance Id="57c954e1-f53a-44f9-9738-d17dce14698e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e727b277-4977-41e4-8121-2b3616945b31" name="Erin the Engineer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e3e2ebe7-e38f-4970-b205-ad304223a96a" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9421bf69-97d5-430f-b7d7-e2a3eb89df3f" name="Search And Destroy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c4808fb-439f-4597-b014-b181af5ab6f4" />
+        <additions>
+          <include Id="862d7fce-fabd-4cb3-96eb-681cb27631e1">
+            <useCaseMoniker Id="51cb9316-d8dd-439e-9783-de4439098b1e" LastKnownName="Acquire Target" />
+            <elementDefinition Id="109707e2-a90d-4b29-af5c-0830bbdb1e59" />
+          </include>
+          <include Id="e922663d-b4d0-458f-b000-128b6f8878a4">
+            <useCaseMoniker Id="896e17e5-b5ef-43ca-8b29-f3ef69cd49e2" LastKnownName="Fire Missiles" />
+            <elementDefinition Id="5a3f6fd4-6854-4c2d-a55a-4ae4ea9c47d1" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="a76867d7-dfef-4268-8a49-95fba77b369d" name="ASML" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e5706405-6ec2-43fa-b373-c488e185d580" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="51cb9316-d8dd-439e-9783-de4439098b1e" name="Acquire Target" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3a7d0e3d-e867-4f8c-a3da-e4de22b39a28" />
+        <targetEnds>
+          <association Id="1b388522-0020-4e10-8b07-81e6dfd53b6c" isDerived="false" sourceEndRoleName="Acquire Target" targetEndRoleName="Target" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="b6efc5a9-03dc-4a0b-b6a3-860c142934b1" LastKnownName="Target" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61daa5ed-2615-48e1-a0dd-2250f9566603" name="Acquire Target" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6670ccf-a434-4aa7-9aa9-fe99c6786183" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="60cebd2d-990c-47c6-88b2-565eb9209300" name="Target" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0ecf2ccb-4eb8-49fc-a82f-3ea80a6e0c20" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6c858b7c-de3f-455f-98e3-1b8a212078b8" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7d080686-e7cc-43ff-a3b6-01f956acc8e3" name="Manual Firing " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf72aa3a-3d03-4988-9683-0a25e50b8159" />
+        <targetEnds>
+          <association Id="405ee2f2-2fa4-4bed-9525-6b86de751114" isDerived="false" sourceEndRoleName="Manual Firing " targetEndRoleName="Fire Missiles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="896e17e5-b5ef-43ca-8b29-f3ef69cd49e2" LastKnownName="Fire Missiles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8918a3db-f5e6-4a45-aa95-b23d41b3e424" name="Manual Firing " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="016a5bc3-dd69-4404-895b-598b1b1293ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5a7fe38-f0db-45ba-9657-83d3c994c3d2" name="Fire Missiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="31293a5c-4326-4a34-97e5-98f5b3d298bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="289f57c9-cf63-4ed3-982b-bc50c7de275a" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="68e09d30-67ba-4489-b455-cdfcd22c3592">
+            <useCaseMoniker Id="75d5184a-4016-46c4-84d9-87adc21eb838" LastKnownName="Rotate Launcher" />
+            <elementDefinition Id="614a4d23-93f3-4a05-9b86-4caa488ea96f" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="2183878e-52a3-42fa-836d-eceb1567b422" name="Instructor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6630cdbb-54b4-48eb-bc1d-fabcc3485f1c" />
+        <targetEnds>
+          <association Id="e12b21bf-0a86-497c-b59e-a559f7eb0142" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Manual Firing " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7d080686-e7cc-43ff-a3b6-01f956acc8e3" LastKnownName="Manual Firing " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fbc57bcb-ae38-4e3e-a4cc-ad27ae212b9d" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="404d28b6-c587-4c02-8615-f2c662dc2afc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="97cd13a7-b297-4379-b299-a63d678ba854" name="Manual Firing " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e1120400-868d-4ae5-9c98-d57f60a2d46d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="72d53abf-8bc8-4d14-9aea-94d384f6ea2d" />
+          </association>
+          <association Id="6755957b-bd32-422c-bc7d-7ce5f56dab0e" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Rotate Launcher" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="75d5184a-4016-46c4-84d9-87adc21eb838" LastKnownName="Rotate Launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c2fff7a3-45d8-463c-b447-68ae93a1f44e" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bb332ccd-57fa-43df-97e6-a1931938502e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e69c40d2-0425-43a8-bd1a-fa162cd36b23" name="Rotate Launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d789c4d2-3f76-4eaf-b1e7-6250b5d107d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9f2a5244-e8fc-45ee-abf1-62092f2a0030" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b6efc5a9-03dc-4a0b-b6a3-860c142934b1" name="Target" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f361087b-7af7-4496-b99b-21b05264de83" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3122612f-a520-4633-aacb-f2172b2d7734" name="Camera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3694c739-6fb2-4b64-8030-94f54804827a" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="9ef56e24-00b9-4616-86ea-502a47d05aae" name="Launcher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1b814b6e-aed4-4703-9261-ab017402c2d1" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="896e17e5-b5ef-43ca-8b29-f3ef69cd49e2" name="Fire Missiles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d3ef3751-4e2c-49db-96d4-b6970267a302" />
+        <targetEnds>
+          <association Id="8bb984fd-2d4c-47ff-8d68-74aad2ddaf1e" isDerived="false" sourceEndRoleName="Fire Missiles" targetEndRoleName="Launcher" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="9ef56e24-00b9-4616-86ea-502a47d05aae" LastKnownName="Launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9ddab054-26bb-49ae-ae30-1a889007e769" name="Fire Missiles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c3a42afd-d3b4-4c3a-9c90-a982f2e71007" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e0984e80-a336-4408-99e1-56eb21ee434b" name="Launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e6cfe268-87af-484e-bf7b-bb79e66e6430" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bb322f3a-21d5-487a-8409-d50abd374753" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="75d5184a-4016-46c4-84d9-87adc21eb838" name="Rotate Launcher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5abb835c-bb81-4f05-8c69-52b4b031bcb9" />
+        <targetEnds>
+          <association Id="ec20c420-59e7-41ea-b5a1-6f03e57cd305" isDerived="false" sourceEndRoleName="Rotate Launcher" targetEndRoleName="Launcher" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="9ef56e24-00b9-4616-86ea-502a47d05aae" LastKnownName="Launcher" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="60ff07ca-1279-4ad1-b097-2623aebd7aae" name="Rotate Launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6993b410-2d5c-4099-9b1c-e0b429ab2403" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b53d422-7366-4db5-ac57-136523f6c44f" name="Launcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6dd5f777-9248-4799-aa28-16d6753039f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="278232b1-ea9a-46cb-abf1-7e85fbff1999" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b6d96caf-388e-4bd4-b3e2-10d74e0b0669" name="Acquire Image" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eb3caa60-cbdc-4be1-b922-a4b01516171c" />
+        <targetEnds>
+          <association Id="8697ca21-36fd-4dc5-b8d2-99d8176d19d6" isDerived="false" sourceEndRoleName="UseCase1" targetEndRoleName="Camera" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="3122612f-a520-4633-aacb-f2172b2d7734" LastKnownName="Camera" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e18caf2d-7599-4d53-a5c3-9f64bdaeee74" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="04e4fdc5-c4ae-46c4-9212-da63e53121a3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b007a1ab-a2de-468f-89d0-e3653bea00cd" name="Camera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2ded4c71-4a2e-4227-abf5-94aa6c3880ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="42abb9d5-da91-4cf0-bd6d-49c632c95763" />
+          </association>
+        </targetEnds>
+        <extendedCases>
+          <extend Id="a647e84a-1c55-4fd7-8e17-64173d4cee2b">
+            <useCaseMoniker Id="51cb9316-d8dd-439e-9783-de4439098b1e" LastKnownName="Acquire Target" />
+            <elementDefinition Id="75ebcd20-cb58-458f-ad42-216f07da2284" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="a76867d7-dfef-4268-8a49-95fba77b369d" LastKnownName="ASML" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="581aa8df-e657-4414-911a-55f22505a940" name="ModelingProject1">
+    <elementDefinition Id="ae22bf82-e54a-481c-9a71-3e87bdfaa699" />
+  </package>
+</useCaseModelRoot>

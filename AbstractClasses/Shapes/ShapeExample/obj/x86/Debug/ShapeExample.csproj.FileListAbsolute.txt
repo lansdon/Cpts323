@@ -1,0 +1,8 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\bin\Debug\ShapeExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\bin\Debug\ShapeExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.Properties.Resources.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.ShapeForm.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.csproj.GenerateResource.Cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.pdb

@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="2bce598b-551e-4605-85a9-6af38dbb1b02"
+  name="Shapes"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ba6a7c9a-33e4-4acf-bb1f-be095f6392db"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=ShapeExample.Shapes"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="40e65834-492c-443e-a8c3-62660e54b03c"
+        name="Circle"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8522ef19-94b6-4ad8-8b27-3fd55ae309a8"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4b3beff0-12de-47d2-ba56-f54a8adfc909"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b054af8e-59ee-4ba4-bea3-9f34a7245e81">
+                <propertyInstance
+                  Id="ff8593e6-e736-46e7-8741-daa4263ac0ad"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="443e1a05-e69c-4ef1-93f4-d655f104769a">
+                <propertyInstance
+                  Id="93120b9f-6e08-4e24-9252-d810045d0730"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db66a12c-e22c-4dcb-a909-575011991dda">
+                <propertyInstance
+                  Id="c4fdfd67-c0c0-450f-be19-0b74f474619a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="025a006b-21d8-4bbe-951d-b9c101419135">
+                <propertyInstance
+                  Id="2064241a-8037-4cd5-a1a2-bc182aae344d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bd55732-25c4-40b8-9715-d3ab1662d3b1">
+                <propertyInstance
+                  Id="df5c0e39-1327-417b-a01f-dcdd2d2c3ab2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="c9f6a7ed-d530-4edf-9a55-bbd3d6399e79"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51c0fe54-fb32-43f9-90d7-0d8ca8061081"
+              LastKnownName="Shape"
+              LastKnownLocation="Package1_2140.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="50b35635-1d53-4a3a-b479-e87efefa2161"
+            name="Circle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4f288db2-2d0e-43fc-80c8-a5b87259138b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6c8038ae-1b65-45a0-b28b-4d98b36c4c60"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6c76ae0-2566-43c7-a0d0-f3d12b4361d7">
+                    <propertyInstance
+                      Id="2220b9b7-7af2-409c-8f45-f14dd1c36f62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e80c0a-caef-44a3-81da-d5939858b873">
+                    <propertyInstance
+                      Id="0790fd3e-f6f1-416c-b16a-fcee397622c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="732e5e0d-c22b-4b10-8840-e2468c78fc15">
+                    <propertyInstance
+                      Id="6d6e0a36-545d-425d-ae65-648111eaaa98"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1956bab-a1d0-4a3e-842f-5c50da73f61e">
+                    <propertyInstance
+                      Id="c6d18e27-d1eb-4190-bd92-454dd17e66ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8db372b2-ac5c-46d2-b5ef-022c37859036">
+                    <propertyInstance
+                      Id="aa25216a-e4c9-418f-953f-eaf8ad83077c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a870d539-7ba9-481d-a7d8-b2cc6840e455"
+                  name="color"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a1e9b9ec-dd7c-4767-9c87-bd40a509e814"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)]) ParameterIdentifier=color"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3620bdf4-2c40-489d-9491-60a980338f2c"
+                      LastKnownName="Color"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5c263c1d-8849-4a5d-a9d9-060c89c7a6b9"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a7315ac1-5d4f-42ff-b2e2-6e3568117686"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb301e2c-4729-4230-a5e3-1b86ca13bbdd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39094d69-9b66-490b-9c36-c840ebaf5166">
+                    <propertyInstance
+                      Id="d7e5208a-0bed-40a7-8794-1345e0b9a299"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8800330-3635-40c5-bc48-49e39316acb8">
+                    <propertyInstance
+                      Id="6052afec-561f-47f9-a372-4847405a240e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c56a9856-f195-4d75-8c3e-752fc1bbca01">
+                    <propertyInstance
+                      Id="fcadb30f-c981-4b7f-854f-627ac418e250"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e115f9d4-b4d1-4099-bbf8-0c40d072d984">
+                    <propertyInstance
+                      Id="2abe8e15-75d2-4190-ae88-a550811eda47"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="556849ec-2448-46c7-ba24-0c5dda28968a">
+                    <propertyInstance
+                      Id="88c74832-95c5-43fc-b36c-8f13aeb46ae9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ee9eac18-b411-4887-8a25-48a57c495913"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="077f3240-5df7-430e-8dbc-14029014959d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)]) ParameterIdentifier=graphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fab3868e-58a8-4447-a4d2-71167af520b1"
+                      LastKnownName="Graphics"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1a0bcb5e-f608-4aab-967e-96133879301c"
+            name="Circle"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="247ec30e-69a8-4b3f-81e1-fa26315d71c4"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Circle Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="21b06690-13e3-4365-91f1-9b76f57eb271"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0af8ee70-fad5-44d8-9cf2-bb816edbbe52">
+                    <propertyInstance
+                      Id="406bccb9-829a-485c-a56e-87c1b0b6c944"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3740eb0f-c917-4a8a-9ee7-e32ac8b28f38">
+                    <propertyInstance
+                      Id="1284b5af-c178-4db6-860f-45d696d3a73d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="041d07cc-e662-4ab1-b0ed-635f09f16b01">
+                    <propertyInstance
+                      Id="45c1ab24-b76b-4255-a4fe-d8f232594d76"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="357c5d78-395c-441c-a316-84631bacbe36">
+                    <propertyInstance
+                      Id="326a31d5-754f-43c2-aaa9-1fd65668a2cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc70d430-a9cd-42c5-9d72-c79a5ec40075">
+                    <propertyInstance
+                      Id="75597fed-ca00-4bb7-9a62-a21327241cc6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="51c0fe54-fb32-43f9-90d7-0d8ca8061081"
+        name="Shape"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b123dcb6-fdef-4258-a2b8-907f7c8a2847"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0a54a501-28ee-4fad-8b7f-4b06204dd7b1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="703c61fb-62a2-4dd2-9237-20edc534a39e">
+                <propertyInstance
+                  Id="97f32404-76ca-4708-9326-846ac69be55a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e026187-14b8-4bc4-b662-d7b536edb414">
+                <propertyInstance
+                  Id="69be8f21-4d70-49e7-9d81-65a1c2936bab"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40492974-ed4e-498f-85e8-7c031bb37494">
+                <propertyInstance
+                  Id="ddcd2974-f335-4240-a4b5-d5a744b7ebe7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1022f682-021b-48ed-bf4c-29c7322b2a02">
+                <propertyInstance
+                  Id="701f7a38-3a1b-45fd-b194-1aadac66e1ba"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ecaec998-f0a3-4ff9-91d0-a170a562407c">
+                <propertyInstance
+                  Id="75f6608b-0fec-44de-ae13-3fc8e2988d97"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="885459dc-97ce-41a1-ae3a-e78abec4c0aa"
+            isDerived="false"
+            sourceEndRoleName="Shape"
+            targetEndRoleName="Color"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3620bdf4-2c40-489d-9491-60a980338f2c"
+              LastKnownName="Color"
+              LastKnownLocation="Package3_2140.uml" />
+            <description>Property Color references type Color.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="edab6e22-55b6-4e98-b5d6-af4064e60a34"
+                  name="Shape"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="bf5a03c7-ba89-427d-afd2-51ad25316524"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ed7f252e-7042-4588-82d6-622114e6a899"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e777f579-6d6e-4f57-bd5a-7a31d125759d"
+                  name="Color"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="96eb132a-dbdd-40b6-a221-7a885f6fd815"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="45ebfca4-bcb3-4642-aecf-60823c1effc8"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ab0e72e0-67ad-4912-a1c4-1380adb677e8"
+            isDerived="false"
+            sourceEndRoleName="Shape"
+            targetEndRoleName="Location"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2bda69a7-ff1b-4f4c-a722-18cd1a41891e"
+              LastKnownName="Point"
+              LastKnownLocation="Package3_2140.uml" />
+            <description>Property Location references type Point.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33bea336-cc07-4ce7-8ebc-f4958b8bfc56"
+                  name="Shape"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c07a61dc-a892-431a-a543-fdbfe7ece9c9"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="55c42cf9-3d6e-4cb5-b681-6024308d015c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ece38467-57cf-4e1a-8cfa-6ee1c5e16fe3"
+                  name="Location"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1ae72865-25b3-4f9d-926e-3c6cb306ad7f"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="31db7c2b-c8d0-4a73-8691-4a0ec00669b7"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="253819e6-66cf-40db-883e-ac66d1fdf221"
+            isDerived="false"
+            sourceEndRoleName="Shape"
+            targetEndRoleName="Size"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="a0a24e57-2f46-4cd5-aa0d-83ceaf305d87"
+              LastKnownName="Size"
+              LastKnownLocation="Package3_2140.uml" />
+            <description>Property Size references type Size.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0743a4fa-8753-43f9-8d9e-b07af503f378"
+                  name="Shape"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8995b219-4718-44ea-a96b-2026514ef230"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1d30cc7c-6bb6-40aa-bbb3-c0c6f2c1213a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="04aa2a7a-eae1-4363-b7a2-292dbcef5114"
+                  name="Size"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c4f68e94-d53d-4b3c-a3d4-7085c6efa979"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a4e3dcbe-7c2e-4d40-86f7-32c8a5c8186c"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="ca08f35a-75dd-41f6-9ec4-30782268b215"
+            name="Color"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a9723af7-1570-4858-aeff-76ecfd91ea0a"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=Color"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="61dae075-ef43-4df5-b188-91078844c3cf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04162993-3976-4b16-99c6-86a41a09f887">
+                    <propertyInstance
+                      Id="e59b923d-189e-4345-b48a-5f731d38bd79"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3970cf1-5c0d-48fa-9516-429ef0cafd52">
+                    <propertyInstance
+                      Id="26fc9acf-a305-4da7-a666-a9b46a81021d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac5d95ad-71b1-4744-b660-1b1365be49c7">
+                    <propertyInstance
+                      Id="7b24473a-12d0-4780-849c-10777dbeeb43"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c83361d-1eb0-4838-9aca-d4985a561f4b">
+                    <propertyInstance
+                      Id="abf55246-5a11-498c-86b1-f6ea2d8a397c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4737dff-5877-4a91-84de-d34262d01d14">
+                    <propertyInstance
+                      Id="7d82a3fd-4fcb-486b-9cab-7808b5ea09cb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c18c816-d572-4b3b-b516-a3e5e7f1ac45">
+                    <propertyInstance
+                      Id="29bc7ce6-8ebc-4852-8ecf-db4e9e46a5ba"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3620bdf4-2c40-489d-9491-60a980338f2c"
+                LastKnownName="Color"
+                LastKnownLocation="Package3_2140.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dac0e298-1e55-48c5-9ec1-2ee5a15285e6"
+            name="Location"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8dd65b86-df61-462c-93bb-97f2d820c008"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=Location"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fbf629ee-e6a1-4823-acb2-2d729310b797"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ef23828-cb5d-4c32-8850-a356949a7f7f">
+                    <propertyInstance
+                      Id="582fd4a3-5a02-426c-89a5-85db9bc014c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7803d728-bc3a-47bb-b1ad-1519eaa0b08d">
+                    <propertyInstance
+                      Id="d39082a8-89c2-4444-ade6-43f779b29069"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb541e5e-3962-4dd2-8f56-e991b67c7ba6">
+                    <propertyInstance
+                      Id="c530a5f2-97c0-4797-abe8-30ff0b5bd1af"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce32cdb4-0a56-4c86-b31a-8d891bcdaf41">
+                    <propertyInstance
+                      Id="355c750e-46d4-4929-a14a-9ac0ddb42384"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97c6923b-feaa-4c10-9a72-725589ff7617">
+                    <propertyInstance
+                      Id="de5ff500-22dd-4ca2-ab71-7e3c463eddda"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d11a507b-7da4-439d-9f3c-5df83537dd7f">
+                    <propertyInstance
+                      Id="a09292bb-f620-40b8-88ff-1a06af48443a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="2bda69a7-ff1b-4f4c-a722-18cd1a41891e"
+                LastKnownName="Point"
+                LastKnownLocation="Package3_2140.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d1b8e46c-e0ca-4880-a470-52d3aadeb27e"
+            name="ShouldFill"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ab447ce9-0b41-4f72-a23b-0d198a79540b"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=ShouldFill"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0522012-6058-4fcb-a018-9d9804ffc7f5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c039ec9e-b107-4e78-a0f8-6820aa918fe7">
+                    <propertyInstance
+                      Id="9e5e4c72-dc90-44fe-954f-170badf3af15"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a4df05a-e4e8-4941-834f-7b28890ce95c">
+                    <propertyInstance
+                      Id="02733ef3-5e42-4970-a972-f03cd0f657b6"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73624b71-7529-4f0b-a757-21b3d792258f">
+                    <propertyInstance
+                      Id="a9a0a555-bd73-4835-82ab-0277512231da"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13e8c33c-9529-400a-9d0b-be1bbc65453f">
+                    <propertyInstance
+                      Id="ffdc6e62-971d-4ea9-b74c-31b64fa07dae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0503647-9ca0-4d74-98e9-7951b19a9a07">
+                    <propertyInstance
+                      Id="98990b3f-12de-475f-8c17-a297ce0fd7f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0e512de-f8eb-4890-8739-6372a27b2213">
+                    <propertyInstance
+                      Id="f749f409-3276-4b60-a2e3-dba67308e463"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="ShapeExampleModeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a2396478-8079-42b8-883d-663e0c3160b8"
+            name="Size"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c0cf988b-f1c6-4d7b-8591-b9f57d041b1d"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=Size"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="229f558f-52b1-4e2e-ac18-5242dacb3d86"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6943567c-6bc0-4b88-8089-4547e7506954">
+                    <propertyInstance
+                      Id="31e09040-4e0f-40e1-875b-564d7a1b5347"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94ef1ba4-24d4-43c5-9cba-3a0ad3db71d9">
+                    <propertyInstance
+                      Id="8dabcde1-41ac-41cf-8bfd-0680b068a4fe"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90beb734-0233-4f61-b6c8-21e8b5d627d6">
+                    <propertyInstance
+                      Id="d525a98c-ed9e-47c1-94ba-8cdbca99aaba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccba0941-dd55-4fa0-bfe1-88da802fef32">
+                    <propertyInstance
+                      Id="2cafc5ce-f052-4b3d-846c-9ba1fbc32d12"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ff0cddb-0861-4f46-8ce1-f34b39f33a02">
+                    <propertyInstance
+                      Id="9d70709c-7dc8-4db4-884d-fab7b24d07ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e14fff65-d2b8-486f-8705-058cf70ae7f4">
+                    <propertyInstance
+                      Id="235871ec-6ee2-4a16-b409-e4b41b675b6d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a0a24e57-2f46-4cd5-aa0d-83ceaf305d87"
+                LastKnownName="Size"
+                LastKnownLocation="Package3_2140.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="286bf126-5527-41e2-898f-ec6f72d55464"
+            name="Shape"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="28c77066-eb8b-45b9-921c-40868feca5dd"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9b162c11-b067-47f7-8d53-8081f8c19368"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a45534c0-2e66-4641-9a0e-bb981c76996c">
+                    <propertyInstance
+                      Id="6ff7fce9-d128-4478-bcea-a340d5895a74"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61bf9647-3fc2-4a0d-852c-d292ccb65dcc">
+                    <propertyInstance
+                      Id="f6025b16-f8a1-404d-a224-8723f020a363"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d40167a-87e3-4d76-8aa6-0d7fe9b6ffc2">
+                    <propertyInstance
+                      Id="d3968fab-f8fa-4438-9bb0-7adcc2645d3f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3017e36d-c309-44d7-a812-d4ff71a90678">
+                    <propertyInstance
+                      Id="19e27255-8512-43d2-8db6-75370febd29c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee84dc84-28c0-4099-a47f-f915af7e6a41">
+                    <propertyInstance
+                      Id="d85b82ee-25af-411b-8b32-d6cff69cfe61"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d52dec8f-5745-4554-8279-59384c24f155"
+                  name="color"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d2e0b880-665a-470f-9610-0013bbf09628"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)]) ParameterIdentifier=color"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3620bdf4-2c40-489d-9491-60a980338f2c"
+                      LastKnownName="Color"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3248b6fb-78f8-440a-8984-858efa312d1d"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="846374fb-1b9a-46f6-a147-39adc3e8ab04"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ad91984d-c896-47e1-b811-2e392f803aee"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92051e22-5a13-4eae-b133-facded7b469e">
+                    <propertyInstance
+                      Id="ba578f68-497b-48c9-b722-3b92d5e21d32"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a506c942-1246-47b4-9cce-c3d9bd599bef">
+                    <propertyInstance
+                      Id="27a612e8-4ba3-4c16-8456-4bd10b90ec65"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c5a3335-13b5-4eb5-acef-6f6f383173ec">
+                    <propertyInstance
+                      Id="5598c672-1187-4a99-800c-5038b82d1642"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc095cde-9fcd-4531-a071-e57c606274f1">
+                    <propertyInstance
+                      Id="7882a5df-a339-450c-ac97-722e9c9bda94"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59a323ea-f309-45dd-ae75-c6e04847a313">
+                    <propertyInstance
+                      Id="3c47877b-0030-421d-9030-32a1a05834db"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5170c9b8-e3b9-4288-9774-86a8e8255fd0"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="017f6cd8-6a79-4843-abe6-db24c0ad8ec5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Shape Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)]) ParameterIdentifier=graphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fab3868e-58a8-4447-a4d2-71167af520b1"
+                      LastKnownName="Graphics"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4de52918-2d59-4e72-a6de-8949b6925fad"
+        name="Square"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="47ca736b-6302-4bea-8919-3a8612dba2a7"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9a994f3f-ae64-4605-8c75-090992c2b567"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a5c6bf0-1127-4ac5-a8bf-4cc19841fec9">
+                <propertyInstance
+                  Id="eba39493-58c7-4020-bdff-cb737a56a564"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2bb9ebcd-200f-4980-a670-7bb26b1e18bf">
+                <propertyInstance
+                  Id="47641e57-b469-4808-8363-6f59244630e9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7419842-e400-4d67-af1b-f9faf49ce0d2">
+                <propertyInstance
+                  Id="82b9f0c8-907e-471d-80e6-51233774abd6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e386afe-cae6-43de-8acb-42a735d859d3">
+                <propertyInstance
+                  Id="1d989ba1-2511-495e-b8a2-96cc0f08c961"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="912067d7-4f29-4062-8de6-cabf7e1bbfcf">
+                <propertyInstance
+                  Id="50f8f640-a722-418d-b77b-28b6b334bde3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="65ae1e74-7675-4184-9942-b90d77ab193f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51c0fe54-fb32-43f9-90d7-0d8ca8061081"
+              LastKnownName="Shape"
+              LastKnownLocation="Package1_2140.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2392591c-5f02-45c9-8b97-3ac767ad4725"
+            name="Square"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2c0b0599-7dbd-4de7-8c71-2e26c96633d2"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0a62a667-e35a-4155-b1bd-03b4ed7fe1f3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce71dc0f-439b-494e-bb5e-7dc342206f03">
+                    <propertyInstance
+                      Id="c5eb9e62-406e-4f8e-8220-49e4c1ad946e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea03c4b3-2792-4a84-8531-c7b7f79b409d">
+                    <propertyInstance
+                      Id="4ea183d3-6682-4901-8f3e-3de307235312"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="028bc05e-ac80-4f51-b665-da39487e9bc3">
+                    <propertyInstance
+                      Id="6e3a80bd-8db7-4abc-bbf8-8eb773492ff7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c9cfddb-a247-4291-8825-f47ef259926f">
+                    <propertyInstance
+                      Id="9007076d-df54-4bc8-9e86-09db4297f551"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="089ef3b1-fad3-4e75-9c7a-2dd59abc5c46">
+                    <propertyInstance
+                      Id="5105ddd4-598b-4d15-beb8-a26fe49f2f45"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c67a1b16-c9fc-4b6a-a720-f31a583a26e2"
+                  name="color"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eaf5aeb1-35fa-4d52-add7-3de4b2eb6c9d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Color)]) ParameterIdentifier=color"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3620bdf4-2c40-489d-9491-60a980338f2c"
+                      LastKnownName="Color"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="dc7099e8-70dc-41e6-a9de-f61efa40bd57"
+            name="Draw"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b5576107-1cdd-4716-bba1-7be736fb5953"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9708e8ba-1b74-484f-be6d-fcbb7e02772c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d076be7c-263f-49ad-ab77-fe76cffe3d9b">
+                    <propertyInstance
+                      Id="e4ffdd65-577c-4d55-8e96-312ddb619aa3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be95e3fa-dda6-47a7-bcea-c4582425b692">
+                    <propertyInstance
+                      Id="5afe1227-8c26-4b3c-bf92-ba1c4ad8fbf6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec4cc20c-8a2c-4b16-88d7-d1e25947162b">
+                    <propertyInstance
+                      Id="bf61656a-6c7c-4289-be02-cb5eb7773426"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0363330c-9a86-403c-9c8d-cb45bd9dcc4a">
+                    <propertyInstance
+                      Id="64049797-b2e9-4014-a721-cd729c98ae29"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e732b29-6b78-4dfc-839a-fdefbada6c6a">
+                    <propertyInstance
+                      Id="3f1a9c1b-1950-4511-a0d4-108553fc1a4d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45a69eba-b5bd-49eb-822e-6049c4a140dc"
+                  name="graphics"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="11ac211c-58c1-40a7-9674-4ded7f0ce9d2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square Member=(Name=Draw OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Drawing.dll&quot; Namespace=System.Drawing Type=Graphics)]) ParameterIdentifier=graphics"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="fab3868e-58a8-4447-a4d2-71167af520b1"
+                      LastKnownName="Graphics"
+                      LastKnownLocation="Package3_2140.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="da3bb1dc-7d36-45a5-9c30-9eb08cb59819"
+            name="Square"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4665628f-7d80-4ee1-9e2b-a42421dda114"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/kungfubear/Desktop/ComputerScience323/ExampleCode/ShapeExample/bin/Debug/ShapeExample.exe Namespace=ShapeExample.Shapes Type=Square Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6c733160-b2d9-48f5-a80a-7df0a74ba29a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c36f0e7-dd53-436f-b224-22981409a609">
+                    <propertyInstance
+                      Id="be40a051-5abd-4ca1-b63d-fb57566d68a7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f77cf5b-590d-4c1b-8ab4-986b8a4f45a8">
+                    <propertyInstance
+                      Id="35a76216-1694-4b9b-ade6-046877162ff2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0e7e93-2c16-495d-b5c7-f4c7671c78a1">
+                    <propertyInstance
+                      Id="7c7a96b2-d577-488d-a9cf-49a2d88d9542"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="548d2f74-45e2-4669-a54a-3159ed84f3a4">
+                    <propertyInstance
+                      Id="dcdbcd0a-b617-4ce3-b419-d08b1c53fb77"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39817916-9c0e-4033-983d-ff5fab3d675f">
+                    <propertyInstance
+                      Id="380ba5c4-698f-4555-a31a-66471ed62512"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

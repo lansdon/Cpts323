@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/kungfubear/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2011-02-09T21:40:47" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample' -  (Package)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes' -  (Package)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Medium" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Circle' -  (Class)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Circle::Circle' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Circle::Circle::color' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Circle::Draw' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Circle::Draw::graphics' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Medium" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape' -  (Class)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Color' -  (Property)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Draw' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Draw::graphics' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Location' -  (Property)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Shape' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Shape::color' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::ShouldFill' -  (Property)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Shape::Size' -  (Property)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Medium" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Square' -  (Class)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Square::Draw' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Square::Draw::graphics' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Square::Square' -  (Operation)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::ShapeExample::Shapes::Square::Square::color' -  (Parameter)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System' -  (Package)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System::Drawing' -  (Package)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System::Drawing::Color' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System::Drawing::Graphics' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System::Drawing::Point' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ShapeExampleModeling::System::Drawing::Size' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ShapeExampleModeling::ShapeExample::Shapes::Circle to ShapeExampleModeling::ShapeExample::Shapes::Shape (Generalization)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ShapeExampleModeling::ShapeExample::Shapes::Shape to ShapeExampleModeling::System::Drawing::Color (Association)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ShapeExampleModeling::ShapeExample::Shapes::Shape to ShapeExampleModeling::System::Drawing::Point (Association)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ShapeExampleModeling::ShapeExample::Shapes::Shape to ShapeExampleModeling::System::Drawing::Size (Association)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ShapeExampleModeling::ShapeExample::Shapes::Square to ShapeExampleModeling::ShapeExample::Shapes::Shape (Generalization)" />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2011-02-09T21:40:51" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
