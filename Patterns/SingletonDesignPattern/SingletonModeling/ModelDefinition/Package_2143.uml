@@ -1,0 +1,1445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="198c80d9-7836-4121-89da-495f7bd34477"
+  name="WindowsFormsApplication1"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d5baae7c-e7eb-49ff-96b2-088d83b70955"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWindowsFormsApplication1"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="24e37633-5f50-4ab0-b522-012b393629b5"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="222b10b5-c9d4-40a9-80b9-33874af1f6a6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="df1c6fed-0468-473e-b798-98f954ae8ecc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3387ac23-52e7-4c85-bae9-f956a4fbf05f">
+                <propertyInstance
+                  Id="df0e840e-e4a6-45f8-8815-9be086cb7e0f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3165e529-15d3-4dc8-a07f-ba0976743eca">
+                <propertyInstance
+                  Id="b4b6ae8d-005b-4cb0-93c6-521b27635849"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bdf05b8-7d71-49be-af35-6418165ef636">
+                <propertyInstance
+                  Id="cd884adc-3150-4f7d-8a75-801200c3d1da"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="763b12f2-4e25-4e17-b27f-7527a09f5bf5">
+                <propertyInstance
+                  Id="323917ff-d428-49cd-a8de-405aafa8e6eb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bb3580f7-da07-4190-8ab2-bf992d15f448">
+                <propertyInstance
+                  Id="5b4474e3-92f2-4d84-99ec-4b21dbca5eae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="74ef47d6-a884-4b63-a073-c4940a08dbc3"
+            isDerived="false"
+            sourceEndRoleName="Program"
+            targetEndRoleName="ResourceManager"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cea8790a-f053-4c9a-9048-3ddd0cf0e213"
+              LastKnownName="ResourceManager"
+              LastKnownLocation="Package_2143.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ab18864f-bfa3-453e-be53-2471d99ce82f"
+                  name="Program"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="12d716cc-12c3-4ce6-b535-284f03536455"
+                  name="ResourceManager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="e9902d8f-3f91-4d45-970d-132509daa262"
+            name="ExampleOfAnotherMethod"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f8143984-e1e8-4c4d-88c7-73061504321e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3DProgram Member%3DExampleOfAnotherMethod"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8dabbe5b-d3db-44ce-9cb3-a7d5e2169655"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4c09474-0076-4412-a4ba-7e2f8ebc6b77">
+                    <propertyInstance
+                      Id="e8144894-fe26-49ac-bb98-ec6b63653114"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e33cbd2f-6d5b-45fc-80e9-a07cf19e86e5">
+                    <propertyInstance
+                      Id="df1abe7d-89f0-496f-ba89-7e0f1c82fe53"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89230e66-5bea-42fa-ab79-b2dacdb3b3b0">
+                    <propertyInstance
+                      Id="5f454395-b37b-4edd-a36a-ed776382828d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34c75549-0154-49d8-ac97-39fe3e9a4cf6">
+                    <propertyInstance
+                      Id="192c7aa6-cb86-4bcb-924c-b44c6250c5e9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2608e63a-b637-468e-b590-a1f09f6e4ba4">
+                    <propertyInstance
+                      Id="f245dbc1-7b73-4f77-b279-53bf79fa7853"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9613b088-0fec-4c1d-80f0-f59da3aa812c">
+                    <propertyInstance
+                      Id="475dffc0-04ee-4c3d-8413-a3cc481acfc9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5f30d51c-eb4d-4fe2-9c25-74237b54bf9d"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9505e154-fd8a-4e0f-af21-a6318bcd20a4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3DProgram Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ddfe469d-a40e-4abf-8abf-26a2c459a8ec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c48bed9-4878-42e9-92d8-4c8e0600e099">
+                    <propertyInstance
+                      Id="3eba36d8-7fd0-420b-9455-b3730ee33f87"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="855fae0e-e996-4d9f-8e2c-b0079b538726">
+                    <propertyInstance
+                      Id="0f303189-d182-4a5a-975b-21ea0ca2018e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0627ba5c-b097-489f-af5d-f93cdfd3db45">
+                    <propertyInstance
+                      Id="83052444-c742-46d5-ac23-cf5c4934a3d2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35946a1c-aa18-4022-9c52-5784b8f427ea">
+                    <propertyInstance
+                      Id="b08df916-cefb-44b7-a892-9214ac0eafdd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e077f29-692f-4dd7-9941-7d20e18ad641">
+                    <propertyInstance
+                      Id="f68ae375-a143-4f22-9c04-9e4611e6a2e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f675451-815e-4f7c-baef-d2b3524ffafc">
+                    <propertyInstance
+                      Id="23e46409-010c-44a5-b4d6-b0fe4b155339"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7eaf7d99-acf0-4551-86b0-48d7bebb19f8"
+            name="CleanUp"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c034ef74-ac7f-4315-afeb-3be4e29aaec5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3DProgram Member%3DCleanUp"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="41af0800-50a9-4565-9bb9-6ae5843f4f14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="694d0beb-86a5-4376-8885-6522c5d69576">
+                    <propertyInstance
+                      Id="2baf1682-1f38-471d-9962-108a05b0e279"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c6525d4-e24f-40c9-9e28-328f7350a7f4">
+                    <propertyInstance
+                      Id="f7361d51-0d7e-4df2-ae03-09191f38c0d4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68282c1d-3936-4ab5-9b3f-345567cac160">
+                    <propertyInstance
+                      Id="b5c8f00f-6c61-4407-882d-2af083c92c9b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6460e1f0-b587-4efc-8d50-308032b8ecc4">
+                    <propertyInstance
+                      Id="5ac9d524-24ec-4011-b0d7-156ce0dc3b1f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49dffc2c-f86b-4f39-b167-af1b869ae700">
+                    <propertyInstance
+                      Id="2d7b54d0-f94f-4a3a-be09-d17a5abcf4f5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01fe0b7e-44b2-43fb-b397-bc6ccf939712">
+                    <propertyInstance
+                      Id="890a3232-67ad-424f-980f-e3facd57b331"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b50508d1-0ed8-497f-a0d7-e6cd0845b2bb"
+        name="DigitalCamera"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f15510b8-0109-4f49-b04f-513b534ce166"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DDigitalCamera ParentType%3DProgram)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="708814ea-2ff6-49b0-ac72-59cc69e8d344"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5885e0d6-62f5-43d1-8189-a5409c6284b0">
+                <propertyInstance
+                  Id="9c12dea5-3363-44e6-89e8-04a370ddbe2f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7bb5360-2253-4d34-aaaa-9994c8a57457">
+                <propertyInstance
+                  Id="008dea0e-f3a1-4831-ae2f-678415093323"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ac24f55-8d9f-42ee-b1af-f9fe4b392a83">
+                <propertyInstance
+                  Id="b8cafd44-bcbe-4a3c-97da-6cdfd7866d33"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc4c0d26-31fd-46d4-9278-2e33f1fb0df3">
+                <propertyInstance
+                  Id="0747b81e-1269-4b06-8906-bc7316b5ffeb"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="949cde1f-d87b-4e61-b980-1a38b6d05c4d">
+                <propertyInstance
+                  Id="de342708-dee4-467f-be6e-70f6b95781d3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ad58d11d-b97f-4fae-836f-3497afc4a772">
+            <interfaceMoniker
+              Id="024f9ec6-2838-4da3-a246-25f420d6e621"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package1_2143.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9340f54f-c3d9-4973-ab4f-a44126621a47"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9145f456-090c-4137-9d60-96b94a738087"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DDigitalCamera ParentType%3DProgram) Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50d9139f-7765-4c2a-a337-c49615f9b8f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ab936e6-c980-4b2a-a71e-1d010e3b7c02">
+                    <propertyInstance
+                      Id="3a38c029-da5a-4cd9-901d-9aa2a574e986"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a31d76-d07e-40b5-a8d8-ddb255b7bd9f">
+                    <propertyInstance
+                      Id="0a50eec0-31f5-43f7-97ae-8615db14c9a1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1678f46-cb95-46ba-9d83-c1cd9b73b765">
+                    <propertyInstance
+                      Id="696c61b1-8687-42f0-bc55-c83498580a0c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea18eac7-3f66-41f0-8149-c8eb529691a7">
+                    <propertyInstance
+                      Id="dd3e3b9c-f654-4f5b-b7b1-d948a646da9a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8f4a4ab-b1df-4d79-bb40-455fe125bea5">
+                    <propertyInstance
+                      Id="7cd6b0ed-b781-4f3d-99e3-08af81747fb8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00631779-1279-4d30-b61b-b1aef89f92b8">
+                    <propertyInstance
+                      Id="de96d846-f167-418b-ab59-b92fbfbc0e60"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c07a6473-7b14-44da-9f67-8a7446e397d6"
+            name="DigitalCamera"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6ed1cc9b-51e3-4783-8968-f5af8ca9d9a1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DDigitalCamera ParentType%3DProgram) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f5cf1a8-e901-4956-b1f0-3b215075b34d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="059f51c8-29be-4ab2-aa26-f5b8fee80ae0">
+                    <propertyInstance
+                      Id="e1ce6450-f009-4b65-891e-d7fe23ca25c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e3fe9c5-29c0-4560-aec7-04b5e8267960">
+                    <propertyInstance
+                      Id="87dd172f-9dcb-4fd4-85a5-1aad913cf1b9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0d830ca-ab37-41ed-8ed4-b63e93bc89ee">
+                    <propertyInstance
+                      Id="cc12aaac-362a-4fff-8479-160bbbb5a563"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f8f3821-d723-4cfb-890e-473a0698c593">
+                    <propertyInstance
+                      Id="e97ded88-0825-4ab1-ab24-a20f91289c83"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce88df47-19d3-47e8-95d8-32b61def2be9">
+                    <propertyInstance
+                      Id="40d5244e-3b25-4dfd-9586-7450c4d8d332"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="692103ee-8c52-48fd-9980-dad85fbb26f3">
+                    <propertyInstance
+                      Id="3ab4e509-4bb4-4c71-a6c0-a0d7607b068e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="11aadfef-14d7-458d-bc26-06f8ebe058f7"
+        name="MemoryManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="13789033-c87c-4cd7-bed0-efed90d17f7f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DMemoryManager ParentType%3DProgram)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6cdd4996-1f5d-41af-99ed-2bf77abe92f9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6eb6c076-f9be-4f9b-b4b1-65549c3cf0a8">
+                <propertyInstance
+                  Id="7e2baf19-2c6d-4810-be51-9c7aae9c62ff"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c770422a-b11e-4adf-aae3-633dacdfac1e">
+                <propertyInstance
+                  Id="afd5acd9-7414-4bd7-a66f-51e548d66600"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f22e41f1-e3d9-492f-9deb-fc595d86cd42">
+                <propertyInstance
+                  Id="074f8ba4-9db0-4770-b446-d28d1604b222"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dca73d9-a100-491a-8874-103a715c269f">
+                <propertyInstance
+                  Id="6cfe65da-ffec-4b0d-9ef3-e4b04e96db52"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5809554e-2b65-4963-a15f-ba9da596ad1a">
+                <propertyInstance
+                  Id="45cf7e9e-ceb0-464b-a6dc-7c1e73ad4013"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e363353d-3463-4bb3-9c4d-4424777f205f">
+            <interfaceMoniker
+              Id="024f9ec6-2838-4da3-a246-25f420d6e621"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package1_2143.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8d1b74ce-038a-4c4d-8e81-028a4b170cf1"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d00d9637-ed4c-410a-8c69-936bf9d83f43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DMemoryManager ParentType%3DProgram) Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="93eea227-9a2c-4a70-9c6b-6007fd3726c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="370771c3-da68-4610-9f7f-972ceaf11201">
+                    <propertyInstance
+                      Id="fcca2be4-6dc7-4927-bdcb-afc466a12d6e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d200867b-0fca-42ed-9e38-fee87c17acbc">
+                    <propertyInstance
+                      Id="4285d3de-2849-4b39-876a-1c0c4bfdd8a0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60cdcc39-1192-4482-bb26-531bf862e3e7">
+                    <propertyInstance
+                      Id="a787993e-98da-4479-a8ec-7f3898dbe9fc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4776ff30-2e4c-49c2-8f05-809c9e56fec7">
+                    <propertyInstance
+                      Id="1adee85f-fde4-47ee-8fd9-24a96ecd6441"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87a83af4-f22d-46a9-8e88-955e8aefc74e">
+                    <propertyInstance
+                      Id="e9ddb689-3e99-46fb-bade-b1c3312ed252"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="100913f1-0464-4913-ae6a-414ad43b51fc">
+                    <propertyInstance
+                      Id="9dbcc093-797c-4446-b366-d4e7820d44ed"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="45735e4a-9302-46ff-891f-3b479f89c600"
+            name="MemoryManager"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="921c47dc-1b76-4fb0-b78c-f8b4edb2a18b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DMemoryManager ParentType%3DProgram) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f7f5673-c356-41c5-be47-c815c0925e90"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d076583-d360-4451-990f-544f76577d68">
+                    <propertyInstance
+                      Id="b95d79e3-5732-4d3c-bd06-ad1ea8e90392"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7900e1d2-0caf-4fe0-bbe4-b8f6370b332a">
+                    <propertyInstance
+                      Id="78e2fe4c-6c87-4bff-b7e7-819bf1565fc5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95df51ec-3116-414a-bb0c-a23321e2af62">
+                    <propertyInstance
+                      Id="8a2978e5-c2ea-44b7-911d-7484126281de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01e79da3-b57d-4076-ba43-7acad84e909d">
+                    <propertyInstance
+                      Id="859ae2e0-12ee-42e3-97b1-064499040114"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="554a19a3-2a5b-4d31-acfa-805bc3acdf9d">
+                    <propertyInstance
+                      Id="d5fe9dfa-dad9-4a55-a9b3-acd0660f2097"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="412a39e5-5f1e-491c-8252-dadb5013a1c0">
+                    <propertyInstance
+                      Id="8f3f4250-5c4f-462f-9530-23047beb64ca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cea8790a-f053-4c9a-9048-3ddd0cf0e213"
+        name="ResourceManager"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0777d4d3-cb6b-463e-b69a-063d9e33899d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="992c2e59-b7a4-4800-b421-4b9beab7325f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2630659b-6f80-4483-9fd4-816e51dcf097">
+                <propertyInstance
+                  Id="b806f58c-2f8a-4589-8675-65bd2c5e7acc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="24b1b6b9-3329-40e5-9380-1da434f00e17">
+                <propertyInstance
+                  Id="1eb7683f-e562-4abc-91c3-e12bf8c3d272"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72cf9dd8-ab96-4c9d-8afd-903aae1f11fc">
+                <propertyInstance
+                  Id="72bd0dae-0fff-40d5-afc0-503e321d3208"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18ccfcd1-009c-430e-8d9d-4d7483de40bd">
+                <propertyInstance
+                  Id="52d54e6d-e310-471f-8340-ad93e25e8ef7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63f53734-c9fe-46fd-ab2a-4866d9e44794">
+                <propertyInstance
+                  Id="93636cb8-6646-44cb-a2e5-8a37e18bb6a5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="6926c087-4e9d-4bda-bfcb-64d0320df7a0"
+            isDerived="false"
+            sourceEndRoleName="ResourceManager"
+            targetEndRoleName="IDisposable"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="024f9ec6-2838-4da3-a246-25f420d6e621"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package1_2143.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b58dfd7e-4d18-4ea7-9ebe-7d766cde4106"
+                  name="ResourceManager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f5b410c5-9092-4bbd-8c61-e71967f07dea"
+                  name="IDisposable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="bfafcecc-9610-4937-b41e-ba74df8482ae"
+            name="m_instance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="215a1997-b934-4349-b848-17ef30c6d74b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3Dm_instance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a816cd6-7d8d-4e42-9cda-c03454236bed"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="382db775-e027-4183-b639-635abd8f66b3">
+                    <propertyInstance
+                      Id="53b6a829-8dab-4276-97c4-e4d0fd8176f9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1502423e-0347-4292-9e4a-76a4e6bd95cc">
+                    <propertyInstance
+                      Id="03b9a424-c295-4027-ae6d-a68eb06b38c9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23145387-8be5-4ff1-950a-61187e401c39">
+                    <propertyInstance
+                      Id="d5f78a2b-ff3f-4f9d-ab3f-f91a7f0f727c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d322c55f-ac66-4cbc-b4fb-e5fcf2f49ca2">
+                    <propertyInstance
+                      Id="2f4d8834-0da9-4d96-8d0a-01d9301d351c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08cd4afb-3349-4c19-be4b-4c4e433ccf0a">
+                    <propertyInstance
+                      Id="9cebd721-4343-473f-ba26-6b7e7080b115"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="cea8790a-f053-4c9a-9048-3ddd0cf0e213"
+                LastKnownName="ResourceManager"
+                LastKnownLocation="Package_2143.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c4cca6dc-600c-465a-972e-9ea9e518aa19"
+            name="m_resources"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cab135ea-7b46-43ce-8561-d6b32cfb21a4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3Dm_resources"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e135d9e4-f128-46ad-a16e-2da18ef8e0d7"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="258cfcca-343a-49cb-b92d-888a8abfcfc6">
+                    <propertyInstance
+                      Id="1ba3ede9-1043-4d9f-855f-a399bf778868"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0bc7c1-a750-433a-8fc7-11166d2bb267">
+                    <propertyInstance
+                      Id="7a179871-c4a3-4537-8de2-b3704d9c2862"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4be6f47f-6513-41f0-a7cd-7406a0a69cf4">
+                    <propertyInstance
+                      Id="76f704b5-aa37-43ef-a9c6-f5c676f64551"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d60a9bb-9cd4-4ef6-aed4-7cac0ca1aa47">
+                    <propertyInstance
+                      Id="f1b7f3d9-792f-40e2-82a8-a0dfc2524068"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2862ec38-aaf8-4366-ad7d-4c7db49a1e7f">
+                    <propertyInstance
+                      Id="339813df-1e4d-4e21-b4ff-316e831dbc5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f91888c5-5870-4a98-9c84-0bf922c053a3"
+                LastKnownName="List&lt;IDisposable‎&gt;"
+                LastKnownLocation="Package3_2143.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d5005d2c-22fc-492e-b076-0f347936ba68"
+            name="GetInstance"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cb58887b-8567-4e51-963f-f630703e60fb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3DGetInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="52d5e5a3-0cb1-4a0b-b7fc-6f84d73d685e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="722526bb-1001-4af7-83c5-5a124afa8731">
+                    <propertyInstance
+                      Id="30dbf4ca-8bab-4532-a52e-fadc3a031605"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4844392-ff49-4119-8786-0bc27a1217db">
+                    <propertyInstance
+                      Id="dda2a3e0-6fc6-42fe-969a-56d71496efb2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8467717d-7185-40be-b873-3229c73a4632">
+                    <propertyInstance
+                      Id="58f9ceb9-efda-4408-99e0-1aaaff5b1845"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a03ab58-d861-49d1-803a-0b21cc35220f">
+                    <propertyInstance
+                      Id="e05fe8ab-8391-4369-a60e-cef913b77326"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ed49fd3-2865-48b7-a95c-27d344e0aa17">
+                    <propertyInstance
+                      Id="57c8ebf1-5a85-4abe-8ba4-6899118dfbcb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7316e1f7-e750-4197-9300-f4df44539268">
+                    <propertyInstance
+                      Id="b30213d5-a363-4af3-9f9e-d2c531e1a692"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="80799f40-d6d5-41bd-b132-5be381398ba2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="cea8790a-f053-4c9a-9048-3ddd0cf0e213"
+                      LastKnownName="ResourceManager"
+                      LastKnownLocation="Package_2143.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9c924bc7-9f89-4474-9c1e-50b419c7eb55"
+            name="ResourceManager"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2ec45b54-788e-4e8d-be48-c8fc414cf5e1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="77d446ad-045c-4725-8254-623536d38cfb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9cedb81-ddb8-41e1-b842-e86d3f455733">
+                    <propertyInstance
+                      Id="c2085a81-ef36-49a7-9084-d39e7c554a83"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b869bbc-0735-40c9-8779-d6dedd65677e">
+                    <propertyInstance
+                      Id="64625267-5626-41ba-af2c-f22ff7c7d4a6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2409fdb3-25b4-4cf3-81c4-572d94002c4e">
+                    <propertyInstance
+                      Id="7e1a67eb-bdc3-4422-920d-d17298e1b9db"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a7b4fb5-6ff8-465b-b61f-10bb0fddcffc">
+                    <propertyInstance
+                      Id="11c06b09-f3ee-4301-8c59-1c184850a559"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="deb6f043-bef2-4b55-93b0-3c6b1e39e049">
+                    <propertyInstance
+                      Id="52fb9a35-84d0-47e2-bd1a-4e5160a5a81c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e6f6a94-8d2c-4343-ab3f-9cdc6beea77c">
+                    <propertyInstance
+                      Id="f85cc6c8-5ca2-4f3c-881d-aa9493cdf3b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="cb916c5d-fbd8-492c-bc98-4fa5c1189287"
+            name="AddResource"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f92a4066-0c5d-4fb5-9f4d-e1343b2b1461"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3D(Name%3DAddResource OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DIDisposable)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5e8cfc2-0244-43ee-ae5c-d0824044456b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7705d61-f2c3-4e89-9cb2-f574dd53cd74">
+                    <propertyInstance
+                      Id="6f73fab3-a5f1-4505-a028-9ac7ea2c3179"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c71ee70-a2b2-4768-bda6-0d524f886e80">
+                    <propertyInstance
+                      Id="1238cade-b87a-4d34-8a0e-6cc6d97d644f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41ea2a45-8beb-4284-9695-f524d8525329">
+                    <propertyInstance
+                      Id="979adbe8-f55d-4cb5-b778-99ce2d3bd048"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94180e4c-7cbc-4610-ba86-55a662483b64">
+                    <propertyInstance
+                      Id="b3417fcf-740e-4a9d-8018-37f31be7f563"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a08e530e-841e-4863-892c-623e3f4071ce">
+                    <propertyInstance
+                      Id="bedcf4c0-38b2-455f-9708-bd3bfba0969c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad9bb182-7aaf-4bdb-ba0c-30b053d149e8">
+                    <propertyInstance
+                      Id="fbc37a7d-9baf-4e64-8d4f-ff5851cf103f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8a5f2a5-914f-46de-b896-9f3c51c2db9a"
+                  name="resource"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="01ca56d4-6815-476e-97da-4696cb29b9f7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3D(Name%3DAddResource OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DIDisposable)]) ParameterIdentifier%3Dresource"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="024f9ec6-2838-4da3-a246-25f420d6e621"
+                      LastKnownName="IDisposable"
+                      LastKnownLocation="Package1_2143.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="abfaaa03-81b8-4f41-bc58-6918ccc11c2d"
+            name="CleanUpAfterYourself"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c185d009-0e5a-4ea9-9abc-bb17613f6456"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DResourceManager ParentType%3DProgram) Member%3DCleanUpAfterYourself"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da4e28ad-e3d1-47cb-a34d-aedcd8911b5f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df18316a-633f-4707-9fa1-3f1b7039a5e4">
+                    <propertyInstance
+                      Id="9478e137-f29e-42c4-b20c-4d06bb8e00ff"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="681cf09c-341f-4da6-a5dd-71c96587fdf3">
+                    <propertyInstance
+                      Id="03661443-fe16-4253-a833-c9b1b79223ef"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31080782-d60f-49aa-8009-bc756527ceb4">
+                    <propertyInstance
+                      Id="79e62cbd-bad4-4781-8e59-e65aa25862ed"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30eb50f8-301b-49d6-809d-19fb49ddbb4a">
+                    <propertyInstance
+                      Id="1f5d5801-925c-4f8a-af2f-602034e37942"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fedd4f54-965c-4b00-84f2-82406194ad10">
+                    <propertyInstance
+                      Id="e99c4ccc-4237-405f-b921-b831f4567aba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a21c9d9c-7ed0-44e9-bddc-58192bbf9c1b">
+                    <propertyInstance
+                      Id="4ae23c08-2040-4adb-a606-6c13e415aa57"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="73b12613-b5ec-40b6-a75f-0982118e2abb"
+        name="XMLFileReader"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a4c0611c-d5eb-448d-9a0f-1013b14a1f75"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DXMLFileReader ParentType%3DProgram)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="03859f83-390c-4180-a688-d43ffc9e1317"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d93881c-cfe5-4dc4-81ca-1cb60ebd4aae">
+                <propertyInstance
+                  Id="755c827b-9be7-40d5-9d3e-6dfc01e09105"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c6d426e-b135-435b-96ed-fe177fd9b904">
+                <propertyInstance
+                  Id="78f09d77-fbe1-490a-ab94-58211e47e6d8"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="57d5e942-1e4b-41e3-a7dc-0f522bb68cdc">
+                <propertyInstance
+                  Id="9e73d179-3f57-4ddf-b75c-3ddd9e5b8919"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="98fde68a-52b0-4c2d-ab97-8887af0a3f22">
+                <propertyInstance
+                  Id="cc329de3-ee25-4521-920c-7f7f4b01df7b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="75044520-610b-4147-abdb-b077419dddac">
+                <propertyInstance
+                  Id="e9f07db4-2725-4992-970e-506c37af6e9a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="17021170-7baf-4c1e-b2fa-82e9f905f8ca">
+            <interfaceMoniker
+              Id="024f9ec6-2838-4da3-a246-25f420d6e621"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package1_2143.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="74c3c597-5ecd-44b9-a9a3-fa0c15182609"
+            name="Dispose"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="16dfd82b-d0f1-4076-9b36-88a578ec8ce2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DXMLFileReader ParentType%3DProgram) Member%3DDispose"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ead2fb01-c6d0-45fd-a150-b46ea866d9bd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03ff9b6b-8b16-494d-a89a-024cd7e23b44">
+                    <propertyInstance
+                      Id="d6bdcc07-610e-4028-983b-7c9ebaac9635"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8ae0bb0-d48e-4a16-bd21-f5b564b62e56">
+                    <propertyInstance
+                      Id="54db7deb-ad0d-47dd-a225-17c0e9d603e7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f7e6447-93a5-4a11-b181-d7a9069f452b">
+                    <propertyInstance
+                      Id="200e88f7-75d8-49d1-939f-aef46445c478"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93988dda-14c0-4748-a2c0-5c882584e858">
+                    <propertyInstance
+                      Id="a14f0ddf-f1d5-4254-b906-cd4a8d251be8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4171cd1d-d462-4c25-81fc-74a55b0cffbd">
+                    <propertyInstance
+                      Id="24092108-be7e-4435-b2aa-6a233582ae61"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0f2afbd-cc9f-4cd3-995e-d9c60ce6f16b">
+                    <propertyInstance
+                      Id="ff02075a-725b-4139-9e7c-021d49685c39"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4553880b-3b9e-4154-a948-f770d191356c"
+            name="XMLFileReader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e81dda8-c2f3-4ab2-9bb1-28e073e04fbe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FHank%2FDropbox%2Fschool%2FCpts323-2013%2Fsource%2FCode%2FPatterns%2FSingletonDesignPattern%2FWindowsFormsApplication1%2Fbin%2FDebug%2FSingleton.exe Namespace%3DWindowsFormsApplication1 Type%3D(Name%3DXMLFileReader ParentType%3DProgram) Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="42a2e023-6aa2-4dc3-bd51-768155b928c7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="970dd082-1e7b-4007-b2f7-47ee4063bbfa">
+                    <propertyInstance
+                      Id="119bb2c1-7da3-4061-984e-02562a9d79a7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="491eceee-f7ed-40cb-a98a-ec1fa0a6d22a">
+                    <propertyInstance
+                      Id="21a283f2-eb09-43da-9e9f-86844d548cb2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01621ad6-da92-43c4-a73e-3db297e76c9c">
+                    <propertyInstance
+                      Id="29cc8166-61f4-4879-9616-11ed96437c08"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba15ec4e-6e75-4a5a-81f4-dff261cb341d">
+                    <propertyInstance
+                      Id="51e77700-b41a-46ef-b3f0-636d8e881882"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16e08f2c-b757-44d0-b043-a96fbf50fd8c">
+                    <propertyInstance
+                      Id="12c0f5c3-b13d-499f-a1a5-06d9b58a4d30"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f985e8f-9d7e-43eb-9a20-33574f1af16a">
+                    <propertyInstance
+                      Id="5cbc0fbe-398c-43c4-b2d1-2a06b926661f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
