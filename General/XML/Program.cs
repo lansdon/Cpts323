@@ -71,11 +71,31 @@ namespace XMLBasics
             }
         }
 
+        static void WriteXmlFile(string path)
+        {
+            using (XmlTextWriter writer = new XmlTextWriter(path, Encoding.ASCII))
+            {
+                writer.Formatting       = Formatting.Indented;
+                XmlDocument document    = new XmlDocument();                
+                XmlElement element      = document.CreateElement("Targets");
+                
+                for(int i = 0; i < 10; i++)
+                {
+                    XmlElement targetElement = document.CreateElement("Target");
+                    targetElement.SetAttribute("xPos", i.ToString());
+                    element.AppendChild(targetElement);
+                }
+                document.AppendChild(element);
+                document.Save(writer);
+            }
+        }
+
         static void Main(string[] args)
         {
             // Here is one way to solve this: http://support.microsoft.com/kb/307548
             // But I will show you another.
             ReadXMLFile(args[0]);
+            WriteXmlFile("garbage.xml");
         }
     }
 }
