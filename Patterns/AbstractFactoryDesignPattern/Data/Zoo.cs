@@ -19,14 +19,16 @@ namespace ZooApplication.Data
         /// </summary>
         public event EventHandler<AnimalAddedEventArgs> AnimalAdded;
 
+        
         /// <summary>
         /// Constructor
         /// </summary>
         public Zoo()
         {
             Animals = new List<Animal>();
-        }        
 
+        }
+     
         /// <summary>
         /// Gets the list of animals 
         /// </summary>
@@ -86,7 +88,7 @@ namespace ZooApplication.Data
         /// <param name="sender"></param>
         /// <param name="e"></param>
         void animal_NeedsFoodNow(object sender, System.EventArgs e)
-        {            
+        {
             // If the animal needs food DO SOMETHING
         }
         /// <summary>
@@ -94,8 +96,8 @@ namespace ZooApplication.Data
         /// </summary>
         public void FeedAnimals(int amount)
         {
-            Animals.ForEach(x => x.Feed(amount));        
+            Animals.ForEach(x => x.Feed(amount));
         }
-         
-    }
+
+    }    
 }

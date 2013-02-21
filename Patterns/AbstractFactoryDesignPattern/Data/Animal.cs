@@ -53,7 +53,7 @@ namespace ZooApplication.Data
             m_hungerFactor   = 10;
             m_metabolism     = metabolismRate;
             Name             = name;
-            m_soundPath = null;
+            m_soundPath = null;                       
         }
 
         /// <summary>
@@ -63,8 +63,7 @@ namespace ZooApplication.Data
         {
             get;
             set;
-        }
-
+        }               
         /// <summary>
         /// Gets or sets the location of the animal.
         /// </summary>
@@ -79,7 +78,7 @@ namespace ZooApplication.Data
         public int Hungerfactor
         {
             get
-            {
+            {              
                 return m_hungerFactor;
             }
         }

@@ -124,7 +124,7 @@
             this.tabControl1.Location = new System.Drawing.Point(209, 52);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(589, 500);
+            this.tabControl1.Size = new System.Drawing.Size(497, 500);
             this.tabControl1.TabIndex = 9;
             // 
             // zooTab
@@ -133,7 +133,7 @@
             this.zooTab.Location = new System.Drawing.Point(4, 22);
             this.zooTab.Name = "zooTab";
             this.zooTab.Padding = new System.Windows.Forms.Padding(3);
-            this.zooTab.Size = new System.Drawing.Size(581, 474);
+            this.zooTab.Size = new System.Drawing.Size(489, 474);
             this.zooTab.TabIndex = 0;
             this.zooTab.Text = "Animal View";
             this.zooTab.UseVisualStyleBackColor = true;
@@ -143,7 +143,7 @@
             this.zooPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.zooPanel.Location = new System.Drawing.Point(3, 3);
             this.zooPanel.Name = "zooPanel";
-            this.zooPanel.Size = new System.Drawing.Size(575, 468);
+            this.zooPanel.Size = new System.Drawing.Size(483, 468);
             this.zooPanel.TabIndex = 2;
             // 
             // AnimalDetails
@@ -155,7 +155,7 @@
             this.columnHeader1,
             this.columnHeader2});
             this.AnimalDetails.GridLines = true;
-            this.AnimalDetails.Location = new System.Drawing.Point(804, 74);
+            this.AnimalDetails.Location = new System.Drawing.Point(712, 74);
             this.AnimalDetails.Name = "AnimalDetails";
             this.AnimalDetails.Size = new System.Drawing.Size(299, 478);
             this.AnimalDetails.TabIndex = 0;
@@ -196,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 564);
+            this.ClientSize = new System.Drawing.Size(1020, 564);
             this.Controls.Add(this.AnimalDetails);
             this.Controls.Add(this.ClearAnimalsButton);
             this.Controls.Add(this.tabControl1);

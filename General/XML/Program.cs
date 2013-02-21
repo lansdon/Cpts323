@@ -44,16 +44,19 @@ namespace XMLBasics
         {
             // Create a file stream so that we can read the data.
             using (XmlTextReader reader = new XmlTextReader(path))
-            {
+            {                
                 // The load the document DOM
                 XmlDocument document = new XmlDocument();
                 document.Load(reader);
 
                 // Grab the first node
                 XmlNode mainNode = document.FirstChild;
+                mainNode         = mainNode.NextSibling;
+                 
+                //XmlElement element = document.GetElementById("Targets");
 
                 // Then get the list of nodes containing the data we want. 
-                XmlNodeList nodes = mainNode.ChildNodes;
+                XmlNodeList nodes = mainNode.ChildNodes; //.ChildNodes;
                 
                 foreach (XmlNode node in nodes)
                 {

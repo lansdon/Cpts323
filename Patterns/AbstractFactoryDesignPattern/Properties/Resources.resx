@@ -130,6 +130,9 @@
   <data name="lion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\lion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="manbearpig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manbearpig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="siamese" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\siamese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

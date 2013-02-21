@@ -5,3 +5,9 @@ C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\General\XML\bin\Debug\XMLBasics.p
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\General\XML\obj\Debug\XMLBasics.csprojResolveAssemblyReference.cache
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\General\XML\obj\Debug\XMLBasics.exe
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\General\XML\obj\Debug\XMLBasics.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\bin\Debug\XMLBasics.exe.config
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\obj\Debug\XMLBasics.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\obj\Debug\XMLBasics.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\bin\Debug\XMLBasics.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\bin\Debug\XMLBasics.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\General\XML\obj\Debug\XMLBasics.csprojResolveAssemblyReference.cache

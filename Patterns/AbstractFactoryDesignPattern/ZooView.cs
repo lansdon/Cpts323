@@ -48,6 +48,7 @@ namespace WindowsFormsApplication1
             // Animal factories to create.
             AnimalFactorySelectorBox.Items.Add(new DomesticAnimalFactory());
             AnimalFactorySelectorBox.Items.Add(new ExoticAnimalFactory());
+            AnimalFactorySelectorBox.Items.Add(new AlienFactory());
             AnimalFactorySelectorBox.SelectedIndex = 0;
 
             // Animal types to create
@@ -64,6 +65,7 @@ namespace WindowsFormsApplication1
             m_animalFlipped     = new Dictionary<Animal, bool>();
 
             m_factory = AnimalFactorySelectorBox.SelectedItem as AbstractAnimalFactory;
+
         }
 
         void zooPanel_Invalidated(object sender, InvalidateEventArgs e)

@@ -6,3 +6,5 @@ C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.csproj.GenerateResource.Cache
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.exe
 C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\AbstractClasses\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\Code\AbstractClasses\Shapes\ShapeExample\obj\x86\Debug\ShapeExample.pdb

@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\AddedAnimalEventArgs.cs" />
+    <Compile Include="Data\Alien\ManBearPig.cs" />
     <Compile Include="Data\Domestic\Labrador.cs" />
     <Compile Include="Data\Domestic\Cow.cs" />
     <Compile Include="Data\Exotic\Bull.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Data\Animal.cs" />
     <Compile Include="Data\Domestic\Siamese.cs" />
     <Compile Include="Data\Exotic\Wolve.cs" />
+    <Compile Include="Factories\AlienFactory.cs" />
     <Compile Include="Factories\DomesticAnimalFactory.cs" />
     <Compile Include="Factories\ExoticAnimalFactory.cs" />
     <Compile Include="ZooView.cs">
@@ -96,6 +98,7 @@
     <Content Include="Resources\cow.jpg" />
     <Content Include="Resources\labrador.jpg" />
     <Content Include="Resources\lion.jpg" />
+    <None Include="Resources\manbearpig.jpg" />
     <Content Include="Resources\siamese.jpg" />
     <Content Include="Resources\wolf.jpg" />
   </ItemGroup>

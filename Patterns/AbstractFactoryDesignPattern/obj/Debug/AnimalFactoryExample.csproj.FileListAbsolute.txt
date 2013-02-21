@@ -7,3 +7,12 @@ C:\Users\Hank\Dropbox\WindowsFormsApplication1\bin\Debug\ZooFactoryExample.exe
 C:\Users\Hank\Dropbox\WindowsFormsApplication1\bin\Debug\ZooFactoryExample.pdb
 C:\Users\Hank\Dropbox\WindowsFormsApplication1\obj\Debug\ZooFactoryExample.exe
 C:\Users\Hank\Dropbox\WindowsFormsApplication1\obj\Debug\ZooFactoryExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\bin\Debug\ZooFactoryExample.exe.config
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\ZooFactoryExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\ZooFactoryExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\bin\Debug\ZooFactoryExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\bin\Debug\ZooFactoryExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\AnimalFactoryExample.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\ZooApplication.Properties.Resources.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\WindowsFormsApplication1.ZooView.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\AbstractFactoryDesignPattern\obj\Debug\AnimalFactoryExample.csproj.GenerateResource.Cache
