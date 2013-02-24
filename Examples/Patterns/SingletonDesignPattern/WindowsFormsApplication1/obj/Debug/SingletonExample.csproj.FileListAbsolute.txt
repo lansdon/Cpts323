@@ -1,8 +1,0 @@
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\bin\Debug\Singleton.exe.config
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\obj\Debug\SingletonExample.csprojResolveAssemblyReference.cache
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\obj\Debug\Singleton.Properties.Resources.resources
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\obj\Debug\SingletonExample.csproj.GenerateResource.Cache
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\bin\Debug\Singleton.exe
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\bin\Debug\Singleton.pdb
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\obj\Debug\Singleton.exe
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Patterns\SingletonDesignPattern\WindowsFormsApplication1\obj\Debug\Singleton.pdb
