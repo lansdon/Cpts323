@@ -1,0 +1,3 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\AdapterModelingExample\bin\Debug\Singleton.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\AdapterModelingExample\bin\Debug\Singleton.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\AdapterModelingExample\obj\Debug\AdapterModelingExample.modelprojResolveAssemblyReference.cache

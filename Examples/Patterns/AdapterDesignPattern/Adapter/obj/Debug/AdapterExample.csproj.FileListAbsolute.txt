@@ -1,0 +1,8 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\bin\Debug\Singleton.exe.config
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\obj\Debug\AdapterExample.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\obj\Debug\Singleton.Properties.Resources.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\obj\Debug\AdapterExample.csproj.GenerateResource.Cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\bin\Debug\Singleton.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\bin\Debug\Singleton.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\obj\Debug\Singleton.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\AdapterDesignPattern\Adapter\obj\Debug\Singleton.pdb

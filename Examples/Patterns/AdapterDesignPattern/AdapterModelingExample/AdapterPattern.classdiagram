@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f9114393-61b4-4888-b31a-e240a770f5ae" name="AdapterPattern" linkedPackageId="19079130-2da5-4fb6-b13e-68776743587d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="500080c4-dd44-4c91-a55a-9a5c4ebe0bed">
+      <profileInstance Id="ef37aad8-5ef1-4f7e-9c56-b704936f443f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="8797406f-8c60-4aac-bd5b-2492314546d0">
+      <profileInstance Id="014e1c5f-6e3e-40a7-b0b8-6f24d68a36f9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="eafeb82a-15a5-4b0a-b058-3159ee2392f8">
+      <profileInstance Id="0642ed22-2468-41a5-ba9a-91905a863e75" name="CSharpProfile">
+        <elementDefinition Id="d008f30d-6ab1-43e7-96ae-7bb372a2cc7f" />
+      </profileInstance>
+      <elementDefinition Id="9c6a2cdd-ce86-4651-a5ed-a1cf76491fac" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="85f6e1b5-26d2-46c2-b0ec-95bbd9bebfb5" name="Target" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fbc6eaf5-1c52-4568-974f-12cd4cae91b1" />
+        <ownedOperationsInternal>
+          <operation Id="c25b9957-c5dc-4c63-a8d2-91723ffae686" name="Request" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bfc55457-8954-42f3-b22e-a3772c21e632" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2725aa4c-990a-4dde-90a4-6ab49666f3e6" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f88ceeb2-7b3e-4201-a575-4b1db11eb0e6" />
+        <targetEnds>
+          <association Id="9abd22a8-3683-4a90-806e-fa089679c729" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Target" isLeaf="false" isAbstract="false">
+            <classMoniker Id="85f6e1b5-26d2-46c2-b0ec-95bbd9bebfb5" LastKnownName="Target" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3398a434-5109-4e46-b735-fb85196e6dad" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a4af8892-28ab-4a2d-81dd-4cf508493e6b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="503b50ef-ae6e-455b-86a3-f511b2e19a0e" name="Target" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0ce36ad4-8c53-4589-b1a2-842c84d33f5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="63b81cf1-e346-4b87-a61d-469e8048766c" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ef7dee47-4ab6-498c-acdb-2e01706241de" name="Adaptor" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0a34168b-7069-41db-aeb3-00538248a7db" />
+        <generalsInternal>
+          <generalization Id="4f7b8262-9eaf-453d-bc8b-5ad2f73e59fa" isSubstitutable="false">
+            <classMoniker Id="85f6e1b5-26d2-46c2-b0ec-95bbd9bebfb5" LastKnownName="Target" />
+            <elementDefinition Id="f4c8c21b-7014-4ff0-b856-1d095b41689d" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="20047cb2-2269-4368-852a-03570e512002" isDerived="false" sourceEndRoleName="Adaptor" targetEndRoleName="Adaptee" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2a97e865-955c-4bea-a2fc-4d720babc056" LastKnownName="Adaptee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="771509ce-6b55-4337-9e89-b099ad31006c" name="Adaptor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="030bee84-9cc4-4d4d-9610-e08d37481022" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="016cf667-4571-4410-8541-bd38d4fdebd2" name="Adaptee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1764a1eb-c9aa-4f79-a587-dab5cb10e148" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df9893ef-c2fc-4e70-8e1e-f4bba611aff9" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2a97e865-955c-4bea-a2fc-4d720babc056" name="Adaptee" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3ef2bb64-09aa-4861-ab6b-ecd2e1ec7f12" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="19079130-2da5-4fb6-b13e-68776743587d" name="AdapterModelingExample">
+    <elementDefinition Id="8313560b-c46f-4198-af46-f9341be2d86c" />
+  </package>
+</logicalClassDesignerModel>

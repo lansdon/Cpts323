@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8313560b-c46f-4198-af46-f9341be2d86c"
+  name="AdapterModelingExample" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="9c6a2cdd-ce86-4651-a5ed-a1cf76491fac">
+      <profileInstance
+        Id="d008f30d-6ab1-43e7-96ae-7bb372a2cc7f"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fbc6eaf5-1c52-4568-974f-12cd4cae91b1"
+        name="Target"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="bfc55457-8954-42f3-b22e-a3772c21e632"
+            name="Request"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f88ceeb2-7b3e-4201-a575-4b1db11eb0e6"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="63b81cf1-e346-4b87-a61d-469e8048766c"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Target"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="fbc6eaf5-1c52-4568-974f-12cd4cae91b1"
+              LastKnownName="Target"
+              LastKnownLocation="AdapterModelingExample.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a4af8892-28ab-4a2d-81dd-4cf508493e6b"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0ce36ad4-8c53-4589-b1a2-842c84d33f5c"
+                  name="Target"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a34168b-7069-41db-aeb3-00538248a7db"
+        name="Adaptor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f4c8c21b-7014-4ff0-b856-1d095b41689d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fbc6eaf5-1c52-4568-974f-12cd4cae91b1"
+              LastKnownName="Target"
+              LastKnownLocation="AdapterModelingExample.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="df9893ef-c2fc-4e70-8e1e-f4bba611aff9"
+            isDerived="false"
+            sourceEndRoleName="Adaptor"
+            targetEndRoleName="Adaptee"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3ef2bb64-09aa-4861-ab6b-ecd2e1ec7f12"
+              LastKnownName="Adaptee"
+              LastKnownLocation="AdapterModelingExample.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="030bee84-9cc4-4d4d-9610-e08d37481022"
+                  name="Adaptor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1764a1eb-c9aa-4f79-a587-dab5cb10e148"
+                  name="Adaptee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3ef2bb64-09aa-4861-ab6b-ecd2e1ec7f12"
+        name="Adaptee"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="238c9a58-b979-497b-a10c-fdc2139df323"
+        LastKnownName="WindowsFormsApplication1"
+        LastKnownLocation="Package_2247.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0b3d73c5-f754-4443-9e45-296513eb106f"
+        LastKnownName="System"
+        LastKnownLocation="Package1_2247.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
