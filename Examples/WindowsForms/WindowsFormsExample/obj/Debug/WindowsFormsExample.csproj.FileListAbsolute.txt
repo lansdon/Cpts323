@@ -1,0 +1,10 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe.config
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\bin\Debug\WindowsFormsExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\bin\Debug\WindowsFormsExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.Properties.Resources.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.csproj.GenerateResource.Cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.MainForm.resources
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\WindowsForms\WindowsFormsExample\obj\Debug\WindowsFormsExample.TargetExample.resources
