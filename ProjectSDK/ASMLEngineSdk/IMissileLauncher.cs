@@ -12,7 +12,7 @@ namespace ASMLEngineSdk
     public interface IMissileLauncher
     {
         /// <summary>
-        /// Resets the missile launcher
+        /// Resets the missile launcher 
         /// </summary>
         void Reset();
         /// <summary>
@@ -31,5 +31,13 @@ namespace ASMLEngineSdk
         /// Fires a missile.
         /// </summary>
         void Fire();
+        /// <summary>
+        /// Gets the phi position of the missile launcher.
+        /// </summary>
+        double Phi { get; }
+        /// <summary>
+        /// Gets the psi position of the missile launcher.
+        /// </summary>
+        double Psi { get; }
     }
 }

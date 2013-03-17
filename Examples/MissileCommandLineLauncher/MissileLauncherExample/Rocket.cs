@@ -13,8 +13,7 @@ namespace MissileLauncherExample
         [STAThread]
         public static void Main(string[] args)
         {
-            MissileLauncher missile = new MissileLauncher();
-            Console.WriteLine("Welcome asshole.");
+            MissileLauncher missile = new MissileLauncher();            
 
             missile.command_switchLED(true);
             missile.command_reset();
