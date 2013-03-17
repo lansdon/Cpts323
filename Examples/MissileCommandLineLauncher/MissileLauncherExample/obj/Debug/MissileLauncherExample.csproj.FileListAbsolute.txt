@@ -1,0 +1,8 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\obj\Debug\MissileLauncherExample.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\bin\Debug\MissileLauncherExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\bin\Debug\MissileLauncherExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\bin\Debug\USBLib.DLL
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\obj\Debug\MissileLauncherExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileLauncher\MissileLauncherExample\obj\Debug\MissileLauncherExample.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileCommandLineLauncher\MissileLauncherExample\obj\Debug\MissileLauncherExample.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\MissileCommandLineLauncher\MissileLauncherExample\obj\Debug\MissileLauncherExample.pdb
