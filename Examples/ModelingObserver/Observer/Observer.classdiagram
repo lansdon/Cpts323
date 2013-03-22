@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="23b78e4f-23b0-4254-804e-57ab0628b5df" name="Observer" linkedPackageId="f07f60b8-4417-4667-83f2-cf769769ef09" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="8813e7c3-5e95-445e-baae-ce89cc012331">
+      <profileInstance Id="3758b219-2a1c-4f0f-828c-92e468c7341a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="57fe52a4-7502-4ff7-8149-fb6cc6b410a2">
+      <profileInstance Id="ac9ccd86-a47f-442e-9959-80f7986be0d9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6ab4bdce-2255-43cc-8056-132c418e288c" name="Subject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="16368889-cccc-42a9-b1df-afda5fe56eb4" />
+        <targetEnds>
+          <association Id="f9938f82-fd8b-4a54-9f95-16e7167bf32a" isDerived="false" sourceEndRoleName="Subject" targetEndRoleName="Observer11" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d9df9a6e-9701-43bc-bee7-0f87130a5897" LastKnownName="Observer11" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc6319a8-b139-4300-a5fc-a078324a2368" name="Subject" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="88529af5-6d39-4d16-b983-dc8ec590161e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f8008f7e-df96-4166-8268-2f28bebb5407" name="Observer11" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b5fa4e5f-be70-467e-8a7c-90dd0a97c1bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8dc138c7-e4c5-41e1-879e-b4dd95f91a21" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="31420a7b-cc0a-42ea-8ef4-e4ce80856427" name="Observer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="37e4d630-02ea-4150-9876-0010848020f3" />
+        <generalsInternal>
+          <generalization Id="5f62d683-766e-4efb-974d-5db461475bfd" isSubstitutable="false">
+            <classMoniker Id="d9df9a6e-9701-43bc-bee7-0f87130a5897" LastKnownName="Observer11" />
+            <elementDefinition Id="2a29a5e4-912e-42e6-a475-907da99740f2" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="ff9a2fea-0b5d-4fe3-bdc3-46d2b3e4e69d" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="784ec385-c869-486c-bfcb-231ac0790b86" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ac0a5110-8721-4f8d-9c8b-783fd7132799" name="Observer1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1f7d5229-ce00-42b6-82ee-1103d442486c" />
+        <generalsInternal>
+          <generalization Id="901cebb9-95fa-413b-b83b-e1dab97adf38" isSubstitutable="false">
+            <classMoniker Id="d9df9a6e-9701-43bc-bee7-0f87130a5897" LastKnownName="Observer11" />
+            <elementDefinition Id="5fb26870-64a2-474f-9ef8-5fbbe6873e82" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="59d8064e-40e6-45e4-b28e-d9b07619db13" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6c40734d-cd8b-4f74-8489-67b335a796af" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="47a8f930-e7fd-4ade-b97b-e74d824a8f1c" name="Observer2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8c13a999-6d86-405c-8ac5-4687fbac836f" />
+        <generalsInternal>
+          <generalization Id="191b11ea-533d-43b3-887e-798bb8840065" isSubstitutable="false">
+            <classMoniker Id="d9df9a6e-9701-43bc-bee7-0f87130a5897" LastKnownName="Observer11" />
+            <elementDefinition Id="3d40ebc2-3bb7-4d11-ab71-613d7c2c2981" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="eaeb3d6c-ecc7-4be1-9f09-e84dbf7c6284" name="Notify" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5633b2fb-8d63-4649-b37f-2d3441dddc65" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d9df9a6e-9701-43bc-bee7-0f87130a5897" name="Observer11" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9a7f0492-1e7d-48c0-bfe6-4ef956b1a55c" />
+        <ownedOperationsInternal>
+          <operation Id="45f48f6e-1f00-4edd-a44b-3d34e9c198b2" name="Notify" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7d10085e-33b9-45f9-aa75-8668cc73c17c" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="f07f60b8-4417-4667-83f2-cf769769ef09" name="Observer">
+    <elementDefinition Id="0f433c19-3e3c-4554-8345-11f06d369379" />
+  </package>
+</logicalClassDesignerModel>
