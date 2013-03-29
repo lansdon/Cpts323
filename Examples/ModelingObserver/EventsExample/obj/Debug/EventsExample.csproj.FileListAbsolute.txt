@@ -1,9 +1,0 @@
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\bin\Debug\EventsExample.exe.config
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\bin\Debug\EventsExample.exe
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\bin\Debug\EventsExample.pdb
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.csprojResolveAssemblyReference.cache
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.Form1.resources
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.Properties.Resources.resources
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.csproj.GenerateResource.Cache
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.exe
-C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\EventsExample\obj\Debug\EventsExample.pdb
