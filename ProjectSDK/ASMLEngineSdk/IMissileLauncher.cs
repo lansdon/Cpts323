@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace ASMLEngineSdk
 {
     /// <summary>
@@ -20,13 +15,13 @@ namespace ASMLEngineSdk
         /// </summary>
         /// <param name="phi"></param>
         /// <param name="phi"></param>
-        void MoveBy(double phi, double psi);
+        void MoveBy(double phi, double theta);
         /// <summary>
         /// Moves the missile launcher to an absolute position.
         /// </summary>
         /// <param name="phi"></param>
         /// <param name="psi"></param>
-        void MoveTo(double phi, double psi);
+        void MoveTo(double phi, double theta);
         /// <summary>
         /// Fires a missile.
         /// </summary>
@@ -36,8 +31,8 @@ namespace ASMLEngineSdk
         /// </summary>
         double Phi { get; }
         /// <summary>
-        /// Gets the psi position of the missile launcher.
+        /// Gets the Theta position of the missile launcher.
         /// </summary>
-        double Psi { get; }
+        double Theta { get; }
     }
 }
