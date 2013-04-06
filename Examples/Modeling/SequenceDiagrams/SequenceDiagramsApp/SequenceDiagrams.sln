@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SequenceDiagram", "..\SequenceDiagram\SequenceDiagram.modelproj", "{AA146481-D677-4099-848C-F2C3C8533CAD}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ExampleSequenceDiagram", "ExampleSequenceDiagram\ExampleSequenceDiagram.modelproj", "{6E2CA25A-8FCC-4562-B845-78A697DC37CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA146481-D677-4099-848C-F2C3C8533CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA146481-D677-4099-848C-F2C3C8533CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA146481-D677-4099-848C-F2C3C8533CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA146481-D677-4099-848C-F2C3C8533CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2CA25A-8FCC-4562-B845-78A697DC37CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2CA25A-8FCC-4562-B845-78A697DC37CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2CA25A-8FCC-4562-B845-78A697DC37CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2CA25A-8FCC-4562-B845-78A697DC37CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

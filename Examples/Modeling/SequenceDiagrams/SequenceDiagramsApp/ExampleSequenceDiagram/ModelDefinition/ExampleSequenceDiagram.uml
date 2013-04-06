@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="c504b473-78fd-4185-b944-6afe7c0a4bbb"
+  name="ExampleSequenceDiagram" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="147a92ba-5e0e-4e12-84e3-685b9b7144e2"
+        name="BroadcastNews"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <combinedFragment
+            Id="89c98306-e90d-48e9-99d5-da3fd2695ea3"
+            name="CombinedFragment1"
+            interactionOperator="Loop">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand
+                Id="72babd6f-a619-4ae8-ba1d-d075d0a8ce1c"
+                name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker
+                    Id="74e91e84-b251-4a75-9533-638647387c9b"
+                    LastKnownName="ConcreteObserver"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                  <lifelineMoniker
+                    Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                    LastKnownName="RonBurgandy"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint
+                    Id="8debd1cc-3e5b-420d-95f8-f3db3c9b40a2"
+                    guardText="NumberOfNewsCasters">
+                    <maxInt>
+                      <literalString
+                        Id="78c836df-3509-4b68-b263-e3c9acc99517"
+                        name="LiteralString1" />
+                    </maxInt>
+                    <minInt>
+                      <literalString
+                        Id="630029be-6546-4143-911a-529afb07f01d"
+                        name="LiteralString2" />
+                    </minInt>
+                  </interactionConstraint>
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker
+                    Id="42ace8ac-db66-4d54-92ba-f6791552d2e0"
+                    LastKnownName="OperandOccurrenceSpecification1"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="a843f9d7-fb45-4827-8f63-46a4417acaee"
+                    LastKnownName="OperandOccurrenceSpecification2"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="a91c0a58-00d4-44f7-aa00-cd34c54240f5"
+                    LastKnownName="OperandOccurrenceSpecification3"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                  <operandOccurrenceSpecificationMoniker
+                    Id="46cc7256-95a8-4ef4-a6a5-25995782b902"
+                    LastKnownName="OperandOccurrenceSpecification4"
+                    LastKnownLocation="ExampleSequenceDiagram.uml" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification
+            Id="42ace8ac-db66-4d54-92ba-f6791552d2e0"
+            name="OperandOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a91c0a58-00d4-44f7-aa00-cd34c54240f5"
+            name="OperandOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="5c8fc3f7-4fa4-4357-ba7a-48fe41328c0f"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="1f2ffc1b-441d-4fdb-884f-82ff2c941771"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0a65913d-46e1-40c0-8c9c-4cb02f07adeb"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a7b63371-19a4-4f3a-96c2-652c58376f7a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3059b5f4-d65a-4fdf-b1c9-90e952539a3a"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0a65913d-46e1-40c0-8c9c-4cb02f07adeb"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="79a3f286-09a9-4908-b4fe-efc785a027e5"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ExampleSequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="08321237-e851-4494-95c1-5a9b2b10da99"
+            name="MessageOccurrenceSpecification1">
+            <event>
+              <sendOperationEventMoniker
+                Id="7a0c0f75-c814-4b18-82d1-f23e6fb01530"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a7b63371-19a4-4f3a-96c2-652c58376f7a"
+            name="MessageOccurrenceSpecification2">
+            <event>
+              <receiveOperationEventMoniker
+                Id="4bddd2d7-1b83-4523-a903-42af905e80ed"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3059b5f4-d65a-4fdf-b1c9-90e952539a3a"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="03505d37-7eb0-4d03-9f6e-4b8d7368e95d"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="1f2ffc1b-441d-4fdb-884f-82ff2c941771"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="300c25b9-690a-4aa7-a414-e9d42366a2b9"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="ExampleSequenceDiagram.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="a843f9d7-fb45-4827-8f63-46a4417acaee"
+            name="OperandOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification
+            Id="46cc7256-95a8-4ef4-a6a5-25995782b902"
+            name="OperandOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <interactionUse
+            Id="5e1fd0dd-9799-48a9-98ef-f680337aa6ba"
+            name="CongratulateEveryoneForAwesomeNews"
+            referredToFile="CongratulateEveryoneForAwesomeNews">
+            <referencesInternal>
+              <reference
+                Id="4cc0d0d3-f93d-4ace-8739-c2a3112010d1"
+                handle="backplane://Backplane/Microsoft.VisualStudio.TeamArchitect.SequenceDesigner.ToolAdapter.SequenceServiceManager/6e2ca25a-8fcc-4562-b845-78a697dc37cd\CongratulateEveryoneForAwesomeNews.sequencediagram"
+                tag="Definition Reference" />
+            </referencesInternal>
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </coveredLifelines>
+            <interactionUseOccurrenceSpecifications>
+              <interactionUseOccurrenceSpecificationMoniker
+                Id="810f061c-5a2f-494d-b921-d30a448db063"
+                LastKnownName="InteractionUseOccurrenceSpecification3"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <interactionUseOccurrenceSpecificationMoniker
+                Id="e73a2d46-58e5-4602-9144-13b6a44d43e4"
+                LastKnownName="InteractionUseOccurrenceSpecification4"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </interactionUseOccurrenceSpecifications>
+          </interactionUse>
+          <interactionUseOccurrenceSpecification
+            Id="810f061c-5a2f-494d-b921-d30a448db063"
+            name="InteractionUseOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </interactionUseOccurrenceSpecification>
+          <interactionUseOccurrenceSpecification
+            Id="e73a2d46-58e5-4602-9144-13b6a44d43e4"
+            name="InteractionUseOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="74e91e84-b251-4a75-9533-638647387c9b"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </covered>
+          </interactionUseOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="49d34f63-7879-4bb6-a6eb-d861f08e1ab5"
+            name="RonBurgandy"
+            isActor="false"
+            lifelineDisplayName="RonBurgandy">
+            <represents>
+              <propertyMoniker
+                Id="ba25ed1f-09c7-4c10-994b-095ec5b7ef6b"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="a91c0a58-00d4-44f7-aa00-cd34c54240f5"
+                LastKnownName="OperandOccurrenceSpecification3"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="08321237-e851-4494-95c1-5a9b2b10da99"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="03505d37-7eb0-4d03-9f6e-4b8d7368e95d"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="46cc7256-95a8-4ef4-a6a5-25995782b902"
+                LastKnownName="OperandOccurrenceSpecification4"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <interactionUseOccurrenceSpecificationMoniker
+                Id="810f061c-5a2f-494d-b921-d30a448db063"
+                LastKnownName="InteractionUseOccurrenceSpecification3"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="74e91e84-b251-4a75-9533-638647387c9b"
+            name="ConcreteObserver"
+            isActor="false"
+            lifelineDisplayName="ConcreteObserver">
+            <represents>
+              <propertyMoniker
+                Id="4999cf95-2ca6-404e-a312-c135ed59fb33"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker
+                Id="42ace8ac-db66-4d54-92ba-f6791552d2e0"
+                LastKnownName="OperandOccurrenceSpecification1"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0a65913d-46e1-40c0-8c9c-4cb02f07adeb"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="1f2ffc1b-441d-4fdb-884f-82ff2c941771"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <operandOccurrenceSpecificationMoniker
+                Id="a843f9d7-fb45-4827-8f63-46a4417acaee"
+                LastKnownName="OperandOccurrenceSpecification2"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+              <interactionUseOccurrenceSpecificationMoniker
+                Id="e73a2d46-58e5-4602-9144-13b6a44d43e4"
+                LastKnownName="InteractionUseOccurrenceSpecification4"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="9a5ac552-1491-4e5e-8f7e-d51ce08403f0"
+            name="BroadcastNews (message)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false"
+            signatureText="+ BroadcastNews(message)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="08321237-e851-4494-95c1-5a9b2b10da99"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a7b63371-19a4-4f3a-96c2-652c58376f7a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="eca79712-be38-4605-a895-1281fbbc8d96"
+            name="translatedMessage"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3059b5f4-d65a-4fdf-b1c9-90e952539a3a"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="03505d37-7eb0-4d03-9f6e-4b8d7368e95d"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="4999cf95-2ca6-404e-a312-c135ed59fb33"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="0fff452a-ebb0-47bf-ba32-f2982279bcb1"
+                LastKnownName="ConcreteObserver"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ba25ed1f-09c7-4c10-994b-095ec5b7ef6b"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="4ccdda92-3a1d-4c4d-bce4-3bcfc54d06a7"
+                LastKnownName="RonBurgandy"
+                LastKnownLocation="ExampleSequenceDiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="79a3f286-09a9-4908-b4fe-efc785a027e5"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="300c25b9-690a-4aa7-a414-e9d42366a2b9"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="02961ca8-8a64-462b-b3d4-713406611624"
+        name="CongratulateEveryoneForAwesomeNews"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <lifelines>
+          <lifeline
+            Id="2513838e-245c-47a5-8b80-ad1e89cc8924"
+            name="RonBurgandy"
+            isActor="false"
+            lifelineDisplayName="RonBurgandy" />
+          <lifeline
+            Id="2f090068-b1a6-4236-b519-28253e7dac79"
+            name="ConcreteObserver"
+            isActor="false"
+            lifelineDisplayName="ConcreteObserver" />
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0fff452a-ebb0-47bf-ba32-f2982279bcb1"
+        name="ConcreteObserver"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="aae5ffbb-ff85-4d6d-9f6e-2c685472b26b"
+            name="BroadcastNews"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5fd14235-8015-4620-bca4-592f2cec65d9"
+                  name="message"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="7a0c0f75-c814-4b18-82d1-f23e6fb01530">
+        <operation>
+          <operationMoniker
+            Id="aae5ffbb-ff85-4d6d-9f6e-2c685472b26b"
+            LastKnownName="BroadcastNews"
+            LastKnownLocation="ExampleSequenceDiagram.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="4bddd2d7-1b83-4523-a903-42af905e80ed">
+        <operation>
+          <operationMoniker
+            Id="aae5ffbb-ff85-4d6d-9f6e-2c685472b26b"
+            LastKnownName="BroadcastNews"
+            LastKnownLocation="ExampleSequenceDiagram.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4ccdda92-3a1d-4c4d-bce4-3bcfc54d06a7"
+        name="RonBurgandy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CongratulateEveryoneForAwesomeNews">
+  <SequenceDesignerModelMoniker Id="19c3cac2-2dd9-4a89-bb66-0000753d3430" />
+  <nestedChildShapes>
+    <lifelineShape Id="cae5f3ab-e3e0-4734-a10e-3dd35fb98bd7" absoluteBounds="1.025, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="5102b986-9ad7-4688-9954-06d9a8cd3c69" LastKnownName="RonBurgandy" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="28537658-6a34-4e04-90af-e8d1ae032b8e" absoluteBounds="0.59999999999999987, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="5102b986-9ad7-4688-9954-06d9a8cd3c69" LastKnownName="RonBurgandy" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="9e70cbed-94cf-46fd-94d8-675b782ec4d0" absoluteBounds="1.025, 1, 0, 7">
+          <lifelineMoniker Id="5102b986-9ad7-4688-9954-06d9a8cd3c69" LastKnownName="RonBurgandy" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="1c663f79-538e-4d51-97a7-669311a07810" absoluteBounds="2.3, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="35b05993-dfc1-4491-a46b-89787a3bba66" LastKnownName="ConcreteObserver" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="3fbf2b53-dbd6-44c4-b72c-5cfa107475c6" absoluteBounds="1.8749999999999998, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="35b05993-dfc1-4491-a46b-89787a3bba66" LastKnownName="ConcreteObserver" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="c829aa27-b167-49a3-8225-21e7fdfd943f" absoluteBounds="2.3, 1, 0, 7">
+          <lifelineMoniker Id="35b05993-dfc1-4491-a46b-89787a3bba66" LastKnownName="ConcreteObserver" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-02-12T00:32:02" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample' -  (Package)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher' -  (Class)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::DreamCheekyMissileLauncher' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::FireMissile' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::Turn' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::Turn::angle' -  (Parameter)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::TurnUp' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher::TurnUp::angle' -  (Parameter)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher' -  (Interface)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher::FireMissile' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher::Turn' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher::Turn::angle' -  (Parameter)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher::TurnUp' -  (Operation)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::InterfacesExample::IMissileLauncher::TurnUp::angle' -  (Parameter)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::System' -  (Package)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'InterfacesExampleModeling::System::Double' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: InterfacesExampleModeling::InterfacesExample::DreamCheekyMissileLauncher to InterfacesExampleModeling::InterfacesExample::IMissileLauncher (InterfaceRealization)" />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="High" Text="(2) type(s) fully reverse engineered." />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2013-02-12T00:32:06" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

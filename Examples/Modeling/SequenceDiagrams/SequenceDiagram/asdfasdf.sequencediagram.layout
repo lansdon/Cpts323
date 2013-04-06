@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sequenceDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="asdfasdf">
+  <SequenceDesignerModelMoniker Id="284c526a-e7b2-44b5-a95a-9f0da047181e" />
+  <nestedChildShapes>
+    <lifelineShape Id="87cb744d-cf4e-4776-a0c8-14a19a2e2498" absoluteBounds="1.025, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="32637460-1897-4f9f-8a6b-a35f010a3e89" LastKnownName="Lifeline1" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="f2b5d587-c3f9-492f-9b0c-e66df0daea19" absoluteBounds="0.59999999999999987, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="32637460-1897-4f9f-8a6b-a35f010a3e89" LastKnownName="Lifeline1" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="694f72bf-5703-4116-ab87-9db9ed3a6639" absoluteBounds="1.025, 1, 0, 7">
+          <lifelineMoniker Id="32637460-1897-4f9f-8a6b-a35f010a3e89" LastKnownName="Lifeline1" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+    <lifelineShape Id="9671a7b9-73c3-4f92-a160-0475b5e1224f" absoluteBounds="2.3, 1, 0.15, 7" visible="true" visualStyleMode="Modified">
+      <lifelineMoniker Id="c510b85a-1c88-4ea8-9b99-23ea7010f475" LastKnownName="Lifeline2" />
+      <relativeChildShapes>
+        <umlLifelineHeadShape Id="5e5341b6-843c-4d78-9a3d-2cfbf53d5d5c" absoluteBounds="1.8749999999999998, 0.6, 1, 0.4" customColor="White" visualStyleMode="Modified">
+          <lifelineMoniker Id="c510b85a-1c88-4ea8-9b99-23ea7010f475" LastKnownName="Lifeline2" />
+          <relativeChildShapes />
+        </umlLifelineHeadShape>
+        <lifelineHoverShape Id="2f00816f-53a8-45db-90b1-89e6f6474611" absoluteBounds="2.3, 1, 0, 7">
+          <lifelineMoniker Id="c510b85a-1c88-4ea8-9b99-23ea7010f475" LastKnownName="Lifeline2" />
+        </lifelineHoverShape>
+      </relativeChildShapes>
+    </lifelineShape>
+  </nestedChildShapes>
+</sequenceDesignerDiagram>

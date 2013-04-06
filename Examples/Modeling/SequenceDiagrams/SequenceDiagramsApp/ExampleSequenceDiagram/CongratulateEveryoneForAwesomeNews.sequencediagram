@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="19c3cac2-2dd9-4a89-bb66-0000753d3430" name="CongratulateEveryoneForAwesomeNews" linkedPackageId="23873218-94e0-47cc-9635-06d1e1a18846" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="5386022c-b94a-45f6-b039-5b8689db250f">
+      <profileInstance Id="f560228a-f4d7-4e0d-abd6-d1a7bd4ca8b9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="246376aa-327a-437c-8ebe-5cf74ff38949">
+      <profileInstance Id="a2b3db43-fb80-4b47-be9e-2230fba6fc20" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="1d4beb4d-ea89-4340-a832-8830f0049f8a" name="CongratulateEveryoneForAwesomeNews" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <elementDefinition Id="02961ca8-8a64-462b-b3d4-713406611624" />
+        <lifelines>
+          <lifeline Id="5102b986-9ad7-4688-9954-06d9a8cd3c69" name="RonBurgandy" isActor="false" lifelineDisplayName="RonBurgandy">
+            <elementDefinition Id="2513838e-245c-47a5-8b80-ad1e89cc8924" />
+          </lifeline>
+          <lifeline Id="35b05993-dfc1-4491-a46b-89787a3bba66" name="ConcreteObserver" isActor="false" lifelineDisplayName="ConcreteObserver">
+            <elementDefinition Id="2f090068-b1a6-4236-b519-28253e7dac79" />
+          </lifeline>
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="23873218-94e0-47cc-9635-06d1e1a18846" name="ExampleSequenceDiagram">
+    <elementDefinition Id="c504b473-78fd-4185-b944-6afe7c0a4bbb" />
+  </package>
+</SequenceDesignerModel>
