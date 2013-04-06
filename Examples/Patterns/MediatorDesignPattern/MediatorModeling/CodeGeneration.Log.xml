@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-03-28T16:55:41" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="ProjectPath = ..\MediatorModelingLib\MediatorModelingLib.csproj" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-03-28T16:55:42" Importance="Medium" Text="MediatorModeling's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'MediatorModeling::Mediator' -  (Class), 'MediatorModeling::Colleague' -  (Class), 'MediatorModeling::ConcreteMediator' -  (Class), 'MediatorModeling::ConcreteColleague1' -  (Class), 'MediatorModeling::ConcreteColleague2' -  (Class) " />
+  <Message Timestamp="2013-03-28T16:56:05" Importance="Medium" Text="Project Added: C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\MediatorModelingLib.csproj" />
+  <Message Timestamp="2013-03-28T16:56:05" Importance="Medium" Text="'MediatorModeling::Mediator' -  (Class) : success (file created) - C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\GeneratedCode\Mediator.cs" />
+  <Message Timestamp="2013-03-28T16:56:07" Importance="Medium" Text="'MediatorModeling::Colleague' -  (Class) : success (file created) - C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\GeneratedCode\Colleague.cs" />
+  <Message Timestamp="2013-03-28T16:56:07" Importance="Medium" Text="'MediatorModeling::ConcreteMediator' -  (Class) : success (file created) - C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\GeneratedCode\ConcreteMediator.cs" />
+  <Message Timestamp="2013-03-28T16:56:07" Importance="Medium" Text="'MediatorModeling::ConcreteColleague1' -  (Class) : success (file created) - C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\GeneratedCode\ConcreteColleague1.cs" />
+  <Message Timestamp="2013-03-28T16:56:07" Importance="Medium" Text="'MediatorModeling::ConcreteColleague2' -  (Class) : success (file created) - C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\GeneratedCode\ConcreteColleague2.cs" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="ProjectPath = ..\MediatorModelingLib\MediatorModelingLib.csproj" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Medium" Text="MediatorModeling's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'MediatorModeling::Mediator' -  (Class), 'MediatorModeling::Colleague' -  (Class), 'MediatorModeling::ConcreteMediator' -  (Class), 'MediatorModeling::ConcreteColleague1' -  (Class), 'MediatorModeling::ConcreteColleague2' -  (Class) " />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="'MediatorModeling::Mediator' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="'MediatorModeling::Colleague' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="'MediatorModeling::ConcreteMediator' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-28T16:56:08" Importance="Diagnostic" Text="'MediatorModeling::ConcreteColleague1' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'MediatorModeling::ConcreteColleague2' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="The selection included 6 elements which were not bound to a template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'MediatorModeling::' -  (Association): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'fa11549c-636c-448e-a137-2cb8f1140c2a' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'MediatorModeling::' -  (Association): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'d7b2bebf-b237-4330-855d-a4c36dd96e2f' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'c41ef4ce-d282-457a-b9d0-6384a8ff442c' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="Diagnostic" Text="'MediatorModeling::' -  (Association): no bound template." />
+  <Message Timestamp="2013-03-28T16:56:09" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

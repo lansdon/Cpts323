@@ -1,0 +1,3 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\Observer\AnchormanModeling\bin\Debug\ObserverExample1.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\Observer\AnchormanModeling\bin\Debug\ObserverExample1.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\ModelingObserver\Observer\AnchormanModeling\obj\Debug\AnchormanModeling.modelprojResolveAssemblyReference.cache

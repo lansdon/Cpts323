@@ -1,0 +1,5 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\bin\Debug\MediatorModelingLib.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\bin\Debug\MediatorModelingLib.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\obj\Debug\MediatorModelingLib.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\obj\Debug\MediatorModelingLib.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModelingLib\obj\Debug\MediatorModelingLib.pdb

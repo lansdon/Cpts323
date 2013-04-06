@@ -1,0 +1,6 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\bin\Debug\MediatorExampleConsole.exe.config
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\bin\Debug\MediatorExampleConsole.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\bin\Debug\MediatorExampleConsole.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\obj\Debug\MediatorExampleConsole.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\obj\Debug\MediatorExampleConsole.exe
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\Examples\Patterns\MediatorDesignPattern\MediatorModeling\MediatorExampleConsole\obj\Debug\MediatorExampleConsole.pdb

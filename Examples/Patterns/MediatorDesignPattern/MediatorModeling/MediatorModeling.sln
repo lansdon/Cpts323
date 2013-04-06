@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "MediatorModeling", "MediatorModeling.modelproj", "{93174256-285B-4F4F-A33A-7AE3202925BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorExampleConsole", "MediatorExampleConsole\MediatorExampleConsole.csproj", "{062F9660-4C00-4E48-AFDD-685AE02B7D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorModelingLib", "..\MediatorModelingLib\MediatorModelingLib.csproj", "{D4E3F88F-23D6-41B4-BE0E-27FD5FB5BB72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93174256-285B-4F4F-A33A-7AE3202925BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93174256-285B-4F4F-A33A-7AE3202925BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93174256-285B-4F4F-A33A-7AE3202925BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93174256-285B-4F4F-A33A-7AE3202925BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062F9660-4C00-4E48-AFDD-685AE02B7D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062F9660-4C00-4E48-AFDD-685AE02B7D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062F9660-4C00-4E48-AFDD-685AE02B7D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062F9660-4C00-4E48-AFDD-685AE02B7D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E3F88F-23D6-41B4-BE0E-27FD5FB5BB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E3F88F-23D6-41B4-BE0E-27FD5FB5BB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E3F88F-23D6-41B4-BE0E-27FD5FB5BB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E3F88F-23D6-41B4-BE0E-27FD5FB5BB72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
