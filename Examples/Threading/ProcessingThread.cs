@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Emgu.CV;
+using Emgu.CV.Structure;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
 
@@ -9,6 +12,8 @@ namespace ThreadingExample
     /// </summary>
     public class ExampleThreadedClass
     {
+        Capture m_camera; 
+
         #region Members
         /// <summary>
         /// Object for synchronizing
@@ -17,7 +22,7 @@ namespace ThreadingExample
         /// <summary>
         /// The last data acquired from the camera.
         /// </summary>
-        private string m_lastData;
+        private Image<Bgr, Byte> m_lastData;
         /// <summary>
         /// Processing thread.
         /// </summary>
@@ -56,8 +61,12 @@ namespace ThreadingExample
         /// </summary>
         public ExampleThreadedClass()
         {
+            
+
             Name        = "Example threaded class";
             m_lastData  = null;
+
+            m_camera = new Capture();
 
             /// 
             /// This is a manual reset event, its a way to synchronize between threads
@@ -91,13 +100,14 @@ namespace ThreadingExample
         /// </summary>
         private void ImagingThread()
         {
-            WaitHandle[] events = new WaitHandle[] { m_waitEvent };
+            ManualResetEvent dummyEvent = new ManualResetEvent(false);
+            WaitHandle[] events = new WaitHandle[] {dummyEvent,  m_waitEvent };
 
             // Wait until someone tells us not to process - this is the main loop
             while (m_isProcessing)
             {
                 int eventHandle = WaitHandle.WaitAny(events);
-                if (eventHandle == 0)
+                if (eventHandle == 1)
                 {
                     m_waitEvent.Reset();
 
@@ -107,8 +117,8 @@ namespace ThreadingExample
                     {
                         // We tell it to wait for a few milliseconds for an event.
                         // In this case the events is just a trigger to collect data or abort.
-                        runEvent = WaitHandle.WaitAny(events, 50);
-                        if (runEvent == 0)
+                        runEvent = WaitHandle.WaitAny(events, 50);                       
+                        if (runEvent == 1)
                         {
                             m_waitEvent.Reset();
                         }
@@ -118,7 +128,8 @@ namespace ThreadingExample
                             // we know nothing else can touch it.
                             lock (m_lockObject)
                             {
-                                m_lastData = DateTime.Now.ToString();                                
+                                //m_lastData = DateTime.Now.ToString();                                
+                                m_lastData = m_camera.QueryFrame();
                             }
 
                             if (this.DataCaptured != null && m_lastData != null)
@@ -174,7 +185,7 @@ namespace ThreadingExample
         /// Gets an the last data we saw.
         /// </summary>
         /// <returns></returns>
-        public string GetLastData()
+        public Image<Bgr, Byte> GetLastData()
         {
             return m_lastData;
         }
@@ -191,7 +202,7 @@ namespace ThreadingExample
         /// Constructor.
         /// </summary>
         /// <param name="data">Data to share with rest of the application.</param>
-        public ExampleEventArgs(string data)
+        public ExampleEventArgs(Image<Bgr, Byte> data)
         {
             LastData = data;
         }
@@ -199,7 +210,7 @@ namespace ThreadingExample
         /// <summary>
         /// Gets the last data .
         /// </summary>
-        public string LastData
+        public Image<Bgr, Byte> LastData
         {            
             get;
             // we use a private set, so that no one can mess with the 

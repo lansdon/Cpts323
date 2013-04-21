@@ -37,8 +37,8 @@ namespace ThreadingExample
         }
         private void DataHandler(object sender, ExampleEventArgs e)
         {
-
-            m_dataLabel.Text = e.LastData;
+            //m_dataLabel.Text = e.LastData;
+            pictureBox1.Image = e.LastData.ToBitmap();
         }
 
         void m_exampleClass_ThreadStopped(object sender, EventArgs e)
@@ -58,7 +58,9 @@ namespace ThreadingExample
 
         private void m_getDataButton_Click(object sender, EventArgs e)
         {
-            m_dataLabel.Text = m_exampleClass.GetLastData();
+            //m_dataLabel.Text = m_exampleClass.GetLastData();
+
+            pictureBox1.Image = m_exampleClass.GetLastData().ToBitmap();
         }
 
         private void button1_Click(object sender, EventArgs e)
