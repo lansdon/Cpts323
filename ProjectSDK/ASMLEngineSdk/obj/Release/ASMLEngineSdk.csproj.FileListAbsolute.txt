@@ -1,0 +1,5 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\ASMLEngineSdk\bin\Release\ASMLEngineSdk.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\ASMLEngineSdk\bin\Release\ASMLEngineSdk.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\ASMLEngineSdk\obj\Release\ASMLEngineSdk.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\ASMLEngineSdk\obj\Release\ASMLEngineSdk.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\ASMLEngineSdk\obj\Release\ASMLEngineSdk.csprojResolveAssemblyReference.cache

@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASMLEngineSdk", "ASMLEngineSdk.csproj", "{D99175DF-85A1-4766-A0B8-97EC667542EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASMLTargetValidator", "..\TargetValidator\ASMLTargetValidator.csproj", "{04756FD5-D79D-43A8-90B1-78353132F759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASMLTargetValidatorConsoleExample", "..\ASMLTargetValidatorConsoleExample\ASMLTargetValidatorConsoleExample.csproj", "{FC49C33A-B38C-41DE-96DA-B38BC1169178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{D99175DF-85A1-4766-A0B8-97EC667542EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D99175DF-85A1-4766-A0B8-97EC667542EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D99175DF-85A1-4766-A0B8-97EC667542EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04756FD5-D79D-43A8-90B1-78353132F759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04756FD5-D79D-43A8-90B1-78353132F759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04756FD5-D79D-43A8-90B1-78353132F759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04756FD5-D79D-43A8-90B1-78353132F759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC49C33A-B38C-41DE-96DA-B38BC1169178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC49C33A-B38C-41DE-96DA-B38BC1169178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC49C33A-B38C-41DE-96DA-B38BC1169178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC49C33A-B38C-41DE-96DA-B38BC1169178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

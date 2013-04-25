@@ -1,0 +1,7 @@
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\obj\Release\ASMLTargetValidator.csprojResolveAssemblyReference.cache
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\bin\Release\ASMLTargetValidator.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\bin\Release\ASMLTargetValidator.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\bin\Release\ASMLEngineSdk.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\obj\Release\ASMLTargetValidator.dll
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\obj\Release\ASMLTargetValidator.pdb
+C:\Users\Hank\Dropbox\school\Cpts323-2013\source\Code\ProjectSDK\TargetValidator\bin\Release\Fleck.dll
